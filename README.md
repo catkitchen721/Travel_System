@@ -3,15 +3,18 @@ C# 視窗程式設計 Final Project
 ```
 For Traveling
 ```
+
 ## 初步想法架構
 1. **資料庫**記錄每個使用者儲存下來的景點資料
-2. 分層搜尋縣市景點資料，並且展示附近住宿資料
-3. 連結 google map API 地圖展示
-4. 結合火車時刻查詢
+	- 希望可以做個資料庫，判斷登入者是否合法
+	- 每個使用者都可以記錄自己過去曾經納入名單的景點
+3. 分層搜尋縣市景點資料，並且展示附近住宿資料
+4. 連結 google map API 地圖展示
+5. 結合火車時刻查詢
 
 optional 其它想法:
-- [ ] 建立群組共享景點資料
-- [ ] 匯出景點資料到 google 的 [我的地圖 My Map](https://www.google.com/intl/zh-TW/maps/about/mymaps/) 進行共享
+- [ ] 建立群組共享景點資料(應該也還是要靠資料庫)
+- [ ] 匯出景點資料到 google 的 [我的地圖 My Map](https://www.google.com/intl/zh-TW/maps/about/mymaps/) 進行共享：[匯入檔案](https://support.google.com/mymaps/answer/3024836?co=GENIE.Platform%3DDesktop&hl=zh-Hant) 應該用 csv 方式
 
 ## 分檔介紹
 ### login

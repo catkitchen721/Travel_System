@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Travel_System
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
-        public Form1()
+        public login()
         {
             InitializeComponent();
+            Image content = Image.FromFile("title_img.png");
+            title_image.Image = content;
+        }
+        
+
+        private void pictureBox1_Click(object sender, EventArgs e) {
+
         }
     }
 }

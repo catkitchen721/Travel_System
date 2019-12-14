@@ -6,6 +6,9 @@ python 爬蟲檔
 
 ### 資料夾  
 ##### scene : 景點資料  
+south_縣市名.txt：南部地區的縣市資料
+> 有 north 北部 / center 中部 / south 南部 / east 東部 / outer 離島  
+
 資料格式範例 
 ```
 景點名
@@ -53,3 +56,4 @@ https://taiwan.taiwanstay.net.tw/twpic/17282.jpg
 https://taiwanstay.net.tw/room/502
 - - - end - - -
 ```
+目前所有縣市資料都在同一份，之後會根據縣市分開

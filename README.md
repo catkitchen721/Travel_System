@@ -3,6 +3,8 @@ C# 視窗程式設計 Final Project
 ```
 For Traveling
 ```
+進度文件 [HackMD](https://hackmd.io/ko7Dfvz0SxCt5Dv3YDDDzQ?view)
+
 
 ## 初步想法架構
 1. **資料庫**記錄每個使用者儲存下來的景點資料

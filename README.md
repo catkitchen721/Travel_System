@@ -16,6 +16,10 @@ optional 其它想法:
 - [ ] 建立群組共享景點資料(應該也還是要靠資料庫)
 - [ ] 匯出景點資料到 google 的 [我的地圖 My Map](https://www.google.com/intl/zh-TW/maps/about/mymaps/) 進行共享：[匯入檔案](https://support.google.com/mymaps/answer/3024836?co=GENIE.Platform%3DDesktop&hl=zh-Hant) 應該用 csv 方式
 
+#### 構想流程圖
+![](https://i.imgur.com/sRd404e.jpg)
+
+
 ## 分檔介紹
 ### login
 最一開始的初始畫面，使用者可以選擇登入、註冊或檢視系統資訊(關於這個東西的簡介)。

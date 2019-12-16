@@ -16,7 +16,7 @@ namespace Travel_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new site_map());
+            Application.Run(new area_map());
         }
     }
 }

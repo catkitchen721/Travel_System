@@ -20,13 +20,16 @@ namespace Travel_System {
         DataTable dt;
 
         int fila = 0;
-        double lat = 22.9897454;
-        double lon = 120.2321653;
+        
+
+        public area_map form1 = null;
         public site_map() {
             InitializeComponent();
         }
 
         private void site_map_Load(object sender, EventArgs e) {
+            double lat = 22.9897454;
+            double lon = 120.2321653;
             // initial setting
             gMapControl1.DragButton = MouseButtons.Left;
             gMapControl1.CanDragMap = true;
@@ -39,6 +42,7 @@ namespace Travel_System {
 
             gMapControl1.OnMarkerClick += new MarkerClick(gMapControl1_OnMarkerClick);
 
+            
             // marker
             marker_overlay = new GMapOverlay("Marcador");
             marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.red);
@@ -47,6 +51,28 @@ namespace Travel_System {
             marker.ToolTipText = string.Format("Location:\n lat:{0}\n lon:{1}", lat, lon);
             gMapControl1.Overlays.Add(marker_overlay);
 
+            int total_site_number = ReadFile.read_file("center_彰化縣.txt");
+            info_box.Text = ReadFile.site_name_list[0];
+
+            for (int i = 0; i < ReadFile.site_name_list.Count; i++) {
+                add_markers_on_map(i, marker_overlay);
+                info_box.Text += (ReadFile.site_name_list[i] + "\n");
+            }
+
+            site_name.Text = form1.city_name;
+            
+        }
+
+        private void add_markers_on_map(int index, GMapOverlay gmap) {
+            
+            //marker_overlay = new GMapOverlay("Marcador");
+            double lat = (double)ReadFile.location_list[index][1];
+            double lon = (double)ReadFile.location_list[index][0];
+            marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.red);
+            gmap.Markers.Add(marker);
+            marker.ToolTipMode = MarkerTooltipMode.Always;
+            marker.ToolTipText = string.Format("Location:\n lat:{0}\n lon:{1}\nName:{2}", lat, lon, ReadFile.site_name_list[index]);
+            gMapControl1.Overlays.Add(gmap);
         }
 
         private void gMapControl1_OnMarkerClick(GMapMarker item, MouseEventArgs e) {

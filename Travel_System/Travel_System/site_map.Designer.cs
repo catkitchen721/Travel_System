@@ -29,7 +29,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.info_box = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -59,7 +59,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.button4);
             this.splitContainer1.Panel2.Controls.Add(this.button3);
             this.splitContainer1.Panel2.Controls.Add(this.button2);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox3);
+            this.splitContainer1.Panel2.Controls.Add(this.info_box);
             this.splitContainer1.Panel2.Controls.Add(this.label2);
             this.splitContainer1.Panel2.Controls.Add(this.hScrollBar1);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
@@ -141,16 +141,16 @@
             this.button2.Text = "公車查詢";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // info_box
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox3.Location = new System.Drawing.Point(668, 170);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(565, 437);
-            this.textBox3.TabIndex = 9;
+            this.info_box.BackColor = System.Drawing.Color.White;
+            this.info_box.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.info_box.Location = new System.Drawing.Point(668, 170);
+            this.info_box.Multiline = true;
+            this.info_box.Name = "info_box";
+            this.info_box.ReadOnly = true;
+            this.info_box.Size = new System.Drawing.Size(565, 437);
+            this.info_box.TabIndex = 9;
             // 
             // label2
             // 
@@ -242,7 +242,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox info_box;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.HScrollBar hScrollBar1;
     }

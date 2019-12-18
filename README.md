@@ -34,3 +34,16 @@ optional 其它想法:
 
 ### system_info
 系統資訊，用 TextBox 簡單放個介紹。
+<hr/>
+
+### area_map
+某一區(比如北部地區)的縣市選項進入點。
+<hr/>
+
+### site_map
+針對某一個縣市所有景點的預覽(可以看到 google map 的地方)。
+<hr/>
+
+### ReadFile
+處理一些需要讀檔進行建立 List 的工作們
+(比如建理縣市分區的 List，並設置 `public` 讓其它檔案可以存取)。

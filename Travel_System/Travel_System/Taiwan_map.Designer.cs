@@ -58,6 +58,7 @@
             this.north_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.north_area.TabIndex = 1;
             this.north_area.TabStop = false;
+            this.north_area.Click += new System.EventHandler(this.area_image_click);
             this.north_area.MouseEnter += new System.EventHandler(this.north_area_MouseHover);
             this.north_area.MouseLeave += new System.EventHandler(this.north_area_MouseLeave);
             // 
@@ -70,6 +71,7 @@
             this.center_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.center_area.TabIndex = 2;
             this.center_area.TabStop = false;
+            this.center_area.Click += new System.EventHandler(this.area_image_click);
             this.center_area.MouseEnter += new System.EventHandler(this.north_area_MouseHover);
             this.center_area.MouseLeave += new System.EventHandler(this.north_area_MouseLeave);
             // 
@@ -82,6 +84,7 @@
             this.south_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.south_area.TabIndex = 3;
             this.south_area.TabStop = false;
+            this.south_area.Click += new System.EventHandler(this.area_image_click);
             this.south_area.MouseEnter += new System.EventHandler(this.north_area_MouseHover);
             this.south_area.MouseLeave += new System.EventHandler(this.north_area_MouseLeave);
             // 
@@ -125,6 +128,7 @@
             this.east_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.east_area.TabIndex = 8;
             this.east_area.TabStop = false;
+            this.east_area.Click += new System.EventHandler(this.area_image_click);
             this.east_area.MouseEnter += new System.EventHandler(this.north_area_MouseHover);
             this.east_area.MouseLeave += new System.EventHandler(this.north_area_MouseLeave);
             // 

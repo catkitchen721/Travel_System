@@ -12,7 +12,9 @@ namespace Travel_System {
     public partial class Taiwan_map : Form {
         string[] image_list = new string[4] { "north_area.png", "center_area.png", "south_area.png", "east_area.png" };
         string[] area_name = new string[4] { "北部地區", "中部地區", "南部地區", "東部地區" };
+        string[] area_file_header = new string[4] { "north", "center", "south", "east" };
         PictureBox[] area_picbox;
+
         public Taiwan_map() {
             InitializeComponent();
             name.Text = "";
@@ -39,6 +41,7 @@ namespace Travel_System {
         private void Taiwan_map_Load(object sender, EventArgs e) {
             Image content = Image.FromFile("taiwan.png");
             taiwan.Image = content;
+            ReadFile.read_area_city_file("area_city.txt");
         }
 
         private void north_area_MouseHover(object sender, EventArgs e) {
@@ -56,6 +59,16 @@ namespace Travel_System {
             object_box.Image = null;
             object_box.Parent = taiwan;
             name.Text = "";
+        }
+
+        private void area_image_click(object sender, EventArgs e) {
+            // 點下地區圖片, 載入地區縣市的 form
+            int index = Array.IndexOf(area_picbox, (PictureBox)sender);
+            area_map form_area = new area_map();
+            form_area.form_taiwan = this;
+            form_area.area_name = area_name[index];
+            form_area.area_name_file = area_file_header[index];
+            form_area.ShowDialog();
         }
     }
 }

@@ -57,3 +57,9 @@ https://taiwanstay.net.tw/room/502
 - - - end - - -
 ```
 目前所有縣市資料都在同一份，之後會根據縣市分開
+
+<hr/>
+
+##### area_city.txt
+根據每個縣市被定義的區域位置(ex: north) 進行檔案排序，以利之後在 C# 裡面建立 dictionary 時用讀檔建立即可
+> 檔案建立用 `area_file_name_define.py` 處理

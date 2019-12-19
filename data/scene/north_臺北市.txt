@@ -1258,28 +1258,6 @@ https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_11207_5.JPG
 -
 - - - end - - -
 景點名
-臺北市立天文科學教育館
--
-連結
-https://www.taiwan.net.tw/m1.aspx?sNo=0001090&id=R59
--
-照片
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_R59_4.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_R59_3.jpg
--
-經緯度
-121.51832
-25.095592
--
-自行開車
-國道1號-臺北交流道下-重慶北路四段-百齡橋-中正路-基河路。
--
-大眾交通
-國道1號-臺北交流道下-重慶北路四段-百齡橋-中正路-基河路
-搭高鐵或臺鐵至臺北站下-轉搭臺北捷運至劍潭站下-轉搭臺北市公車(紅3、紅30、41路)至天文科學館站下
--
-- - - end - - -
-景點名
 臺北二二八和平公園
 -
 連結
@@ -1301,6 +1279,28 @@ https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9666_7.jpg
 大眾交通
 國道1號-臺北交流道下-重慶北路三段至一段-重慶南路一段-襄陽路-公園路-凱達格蘭大道
 搭高鐵或臺鐵至臺北站下-轉搭臺北捷運至台大醫院站下
+-
+- - - end - - -
+景點名
+臺北市立天文科學教育館
+-
+連結
+https://www.taiwan.net.tw/m1.aspx?sNo=0001090&id=R59
+-
+照片
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_R59_4.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_R59_3.jpg
+-
+經緯度
+121.51832
+25.095592
+-
+自行開車
+國道1號-臺北交流道下-重慶北路四段-百齡橋-中正路-基河路。
+-
+大眾交通
+國道1號-臺北交流道下-重慶北路四段-百齡橋-中正路-基河路
+搭高鐵或臺鐵至臺北站下-轉搭臺北捷運至劍潭站下-轉搭臺北市公車(紅3、紅30、41路)至天文科學館站下
 -
 - - - end - - -
 景點名

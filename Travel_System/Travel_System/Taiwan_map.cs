@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Travel_System {
     public partial class Taiwan_map : Form {
+        public const string pic_folder = "../../../../image/";
         string[] image_list = new string[4] { "north_area.png", "center_area.png", "south_area.png", "east_area.png" };
         string[] area_name = new string[4] { "北部地區", "中部地區", "南部地區", "東部地區" };
         string[] area_file_header = new string[4] { "north", "center", "south", "east" };
@@ -39,7 +40,7 @@ namespace Travel_System {
         }
 
         private void Taiwan_map_Load(object sender, EventArgs e) {
-            Image content = Image.FromFile("taiwan.png");
+            Image content = Image.FromFile(pic_folder + "taiwan.png");
             taiwan.Image = content;
             ReadFile.read_area_city_file("area_city.txt");
         }
@@ -47,7 +48,7 @@ namespace Travel_System {
         private void north_area_MouseHover(object sender, EventArgs e) {
             // 把滑到的 picturebox 轉換(所以大家共用同個 function)，載入圖片
             PictureBox object_box = (PictureBox)sender;
-            Image img = Image.FromFile(image_list[Array.IndexOf(area_picbox, object_box)]);
+            Image img = Image.FromFile(pic_folder + image_list[Array.IndexOf(area_picbox, object_box)]);
             object_box.Image = img;
             object_box.BringToFront();
             name.Text = area_name[Array.IndexOf(area_picbox, object_box)];

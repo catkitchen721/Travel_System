@@ -25,7 +25,7 @@ namespace Travel_System {
             area_tag.Text = area_name;
 
             // 區域地圖
-            Image img = Image.FromFile(area_name_file + "_area.png");
+            Image img = Image.FromFile(Taiwan_map.pic_folder + area_name_file + "_area.png");
             area_map_image.Image = img;
             area_map_image.SizeMode = PictureBoxSizeMode.Zoom;
         }

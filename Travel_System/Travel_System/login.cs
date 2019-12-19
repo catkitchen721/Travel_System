@@ -15,7 +15,7 @@ namespace Travel_System
         public login()
         {
             InitializeComponent();
-            Image content = Image.FromFile("title_img.png");
+            Image content = Image.FromFile(Taiwan_map.pic_folder + "title_img.png");
             title_image.Image = content;
         }
         

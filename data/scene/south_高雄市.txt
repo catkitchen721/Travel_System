@@ -461,27 +461,6 @@ https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_2544_1.jpg
 -
 - - - end - - -
 景點名
-藤枝國家森林遊樂區
--
-連結
-https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=2550
--
-照片
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_2550_3.jpg
--
-經緯度
-120.75451
-23.067871
--
-自行開車
-國道3號-九如交流道下-省道臺3線-省道臺22線-省道臺27線-荖濃溪林道。
--
-大眾交通
-國道3號-九如交流道下-省道臺3線-省道臺22線-省道臺27線-荖濃溪林道
-搭臺鐵至高雄站下-轉搭高雄客運(往六龜)至六龜站下
--
-- - - end - - -
-景點名
 光之穹頂
 -
 連結
@@ -500,6 +479,27 @@ https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00074.jpg
 大眾交通
 國道1號-高雄交流道下-中正一路至中正三路
 搭高鐵至左營站下或搭臺鐵至高雄站下-轉搭高雄捷運至美麗島站下
+-
+- - - end - - -
+景點名
+藤枝國家森林遊樂區
+-
+連結
+https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=2550
+-
+照片
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_2550_3.jpg
+-
+經緯度
+120.75451
+23.067871
+-
+自行開車
+國道3號-九如交流道下-省道臺3線-省道臺22線-省道臺27線-荖濃溪林道。
+-
+大眾交通
+國道3號-九如交流道下-省道臺3線-省道臺22線-省道臺27線-荖濃溪林道
+搭臺鐵至高雄站下-轉搭高雄客運(往六龜)至六龜站下
 -
 - - - end - - -
 景點名
@@ -1320,31 +1320,6 @@ None
 -
 - - - end - - -
 景點名
-美綠生態園區
--
-連結
-https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=A12-00360
--
-照片
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_1.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_2.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_3.jpg
--
-經緯度
-120.58181
-22.873483
--
-自行開車
-國道三號-田寮交流道下-台28線-旗山-美濃(往六龜經竹子門電廠)-三民路-中華路。
--
-大眾交通
-國道三號-田寮交流道下-台28線-旗山-美濃(往六龜經竹子門電廠)-三民路-中華路
-搭高鐵至左營站下或臺鐵至高雄站下-轉搭高雄客運E25至竹仔門站下
-None
--
-- - - end - - -
-景點名
 再見捌捌陸-臺灣眷村文化園區
 -
 連結
@@ -1368,6 +1343,31 @@ https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00378_5.jpg
 大眾交通
 從台17線轉入海功路，行駛至海富路左轉，直行約150公尺抵達
 1. 自高鐵左營站/台鐵新左營站/高雄捷運左營站出發─步行約30分鐘抵達
+-
+- - - end - - -
+景點名
+美綠生態園區
+-
+連結
+https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=A12-00360
+-
+照片
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_1.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_2.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00360_3.jpg
+-
+經緯度
+120.58181
+22.873483
+-
+自行開車
+國道三號-田寮交流道下-台28線-旗山-美濃(往六龜經竹子門電廠)-三民路-中華路。
+-
+大眾交通
+國道三號-田寮交流道下-台28線-旗山-美濃(往六龜經竹子門電廠)-三民路-中華路
+搭高鐵至左營站下或臺鐵至高雄站下-轉搭高雄客運E25至竹仔門站下
+None
 -
 - - - end - - -
 景點名

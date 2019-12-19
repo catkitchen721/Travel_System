@@ -22,7 +22,6 @@ namespace Travel_System {
 
         private void area_map_Load(object sender, EventArgs e) {
             load_city_button(area_name);
-            //button_list = new Button[4]{city_button, button2, button3, button4};
             area_tag.Text = area_name;
 
             // 區域地圖

@@ -36,8 +36,6 @@ namespace Travel_System {
         }
 
         private void site_map_Load(object sender, EventArgs e) {
-            //double lat = (double)ReadFile.location_list[0][1];
-            //double lon = (double)ReadFile.location_list[0][0];
             // initial setting
             gMapControl1.DragButton = MouseButtons.Left;
             gMapControl1.CanDragMap = true;

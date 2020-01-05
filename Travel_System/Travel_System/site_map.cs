@@ -14,6 +14,8 @@ using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 
+using System.Net;
+
 namespace Travel_System {
     public partial class site_map : Form {
         GMarkerGoogle marker;
@@ -34,6 +36,7 @@ namespace Travel_System {
         public string site_name_wf;
         public string LON;
         public string LAT;
+        public int INDEX_PIC;
 
         public area_map form1 = null;
         public site_map() {
@@ -64,6 +67,7 @@ namespace Travel_System {
             user_account_label.Text = login.user_account;
 
             /*** write csv ***/
+            Directory.CreateDirectory("csv");
             sys_startup = Application.StartupPath+"\\csv";
             dinfo = new DirectoryInfo(sys_startup);
             files = dinfo.GetFiles();
@@ -132,6 +136,7 @@ namespace Travel_System {
         private void gMapControl1_OnMarkerEnter(GMapMarker item) {
             // 當滑鼠移到座標點上
             int index = marker_list.IndexOf((GMarkerGoogle)item);
+            INDEX_PIC = index;
             info_box.Text = ReadFile.site_name_list[index] + "\r\n";
             site_name_wf = ReadFile.site_name_list[index];
             info_box.Text += "經緯度:" + item.Position.Lng.ToString() + "," + item.Position.Lat.ToString() + "\r\n";
@@ -139,13 +144,65 @@ namespace Travel_System {
             LAT = item.Position.Lat.ToString();
             info_box.Text += (ReadFile.self_drive_list[index] + "\r\n");
             info_box.Text += (ReadFile.public_traffic_list[index][0] + "\r\n");
+
+            String url_temp = "";
+            if(ReadFile.photo_list[INDEX_PIC].Count > 0)
+            {
+                int val = 100 / ReadFile.photo_list[INDEX_PIC].Count;
+                if(hScrollBar1.Value / val >= ReadFile.photo_list[INDEX_PIC].Count)
+                    url_temp = ReadFile.photo_list[INDEX_PIC][hScrollBar1.Value /val - 1];
+                else
+                    url_temp = ReadFile.photo_list[INDEX_PIC][hScrollBar1.Value / val];
+            }
+                
+            info_box.Text += (url_temp + "\r\n");
+
+            if (url_temp.Contains("https:"))
+            {
+                url_temp=url_temp.Replace("https", "http");
+                pictureBox1.LoadAsync(url_temp);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+                
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            bool site_name_duplicated = false;
+            using (StreamReader sr = new StreamReader(sys_startup + "\\" + login.user_account + ".csv"))
+            {
+                while (sr.Peek() >= 0)
+                {
+                    String temp = sr.ReadLine();
+                    if (temp.Contains(site_name_wf))
+                        site_name_duplicated = true;
+                }
+            }
             using (StreamWriter sw = File.AppendText(sys_startup + "\\" + login.user_account + ".csv"))
             {
-                sw.WriteLine(LON+","+LAT + "," + site_name_wf);
+                if(!site_name_duplicated)
+                    sw.WriteLine(LON+","+LAT + "," + site_name_wf);
+            }
+        }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            String url_temp = "";
+            if (ReadFile.photo_list[INDEX_PIC].Count > 0)
+            {
+                int val = 100 / ReadFile.photo_list[INDEX_PIC].Count;
+                if (hScrollBar1.Value / val >= ReadFile.photo_list[INDEX_PIC].Count)
+                    url_temp = ReadFile.photo_list[INDEX_PIC][hScrollBar1.Value / val - 1];
+                else
+                    url_temp = ReadFile.photo_list[INDEX_PIC][hScrollBar1.Value / val];
+            }
+
+            if (url_temp.Contains("https:"))
+            {
+                url_temp = url_temp.Replace("https", "http");
+                pictureBox1.LoadAsync(url_temp);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
     }

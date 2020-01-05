@@ -101,6 +101,7 @@ namespace Travel_System
             }
             catch(Exception exc)
             {
+                //MessageBox.Show(exc.ToString(), "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 MessageBox.Show("有些地方出錯了...", "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
@@ -179,7 +180,8 @@ namespace Travel_System
             }
             catch (Exception exc)
             {
-                MessageBox.Show("有些地方出錯了...", "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(exc.ToString(), "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                //MessageBox.Show("有些地方出錯了...", "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

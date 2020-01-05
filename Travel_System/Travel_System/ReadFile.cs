@@ -34,10 +34,12 @@ namespace Travel_System {
                     break;
                 if (String.Compare(line, "-") == 0) {
                     if (list_case == 2) {
-                        photo_list.Add(substring_photo);
+                        //photo_list.Add(substring_photo[0]);
                     }
                     else if (list_case == 3) {
+                        photo_list.Add(substring_photo);
                         location_list.Add(substring_location);
+                        substring_photo = new List<string>();
                         num += 1;
                     }
                     else if (list_case == 5) {

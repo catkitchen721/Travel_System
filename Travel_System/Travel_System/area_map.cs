@@ -39,6 +39,7 @@ namespace Travel_System {
             form2.form1 = this;
             form2.area_name = area_name_file;
             form2.city_name = click.Text;
+            form2.WindowState = FormWindowState.Maximized;
             form2.ShowDialog();
         }
         private void load_city_button(string area_name) {

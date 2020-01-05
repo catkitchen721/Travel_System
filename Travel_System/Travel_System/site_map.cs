@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 using GMap.NET;
@@ -24,6 +25,16 @@ namespace Travel_System {
         
         public string area_name;
         public string city_name;
+
+        public int file_is_created = 0;
+        public DirectoryInfo dinfo;
+        FileInfo[] files;
+        public string sys_startup;
+
+        public string site_name_wf;
+        public string LON;
+        public string LAT;
+
         public area_map form1 = null;
         public site_map() {
             InitializeComponent();
@@ -48,6 +59,30 @@ namespace Travel_System {
 
             gMapControl1.OnMarkerClick += new MarkerClick(gMapControl1_OnMarkerClick);
             marker_overlay = new GMapOverlay("marker");
+
+            // user account
+            user_account_label.Text = login.user_account;
+
+            /*** write csv ***/
+            sys_startup = Application.StartupPath+"\\csv";
+            dinfo = new DirectoryInfo(sys_startup);
+            files = dinfo.GetFiles();
+            for(int i = 0; i < files.Length; i++)
+            {
+                if(files[i].Name == (login.user_account + ".csv"))
+                {
+                    file_is_created = 1;
+                }
+            }
+            if (file_is_created == 0)
+            {
+                //create csv files
+                using (StreamWriter sw = File.CreateText(sys_startup + "\\" + login.user_account + ".csv"))
+                {
+                    sw.WriteLine("經度,緯度,景點名");
+                }
+                file_is_created = 1;
+            }
 
 
 
@@ -91,16 +126,27 @@ namespace Travel_System {
 
         private void gMapControl1_OnMarkerClick(GMapMarker item, MouseEventArgs e) {
             // 當滑鼠點擊座標
-            MessageBox.Show("Click!!");
+            //MessageBox.Show(item.Position.Lng.ToString());
         }
 
         private void gMapControl1_OnMarkerEnter(GMapMarker item) {
             // 當滑鼠移到座標點上
             int index = marker_list.IndexOf((GMarkerGoogle)item);
             info_box.Text = ReadFile.site_name_list[index] + "\r\n";
+            site_name_wf = ReadFile.site_name_list[index];
+            info_box.Text += "經緯度:" + item.Position.Lng.ToString() + "," + item.Position.Lat.ToString() + "\r\n";
+            LON = item.Position.Lng.ToString();
+            LAT = item.Position.Lat.ToString();
             info_box.Text += (ReadFile.self_drive_list[index] + "\r\n");
             info_box.Text += (ReadFile.public_traffic_list[index][0] + "\r\n");
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter sw = File.AppendText(sys_startup + "\\" + login.user_account + ".csv"))
+            {
+                sw.WriteLine(LON+","+LAT + "," + site_name_wf);
+            }
+        }
     }
 }

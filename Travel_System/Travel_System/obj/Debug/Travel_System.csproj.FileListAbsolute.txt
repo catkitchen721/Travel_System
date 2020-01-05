@@ -19,3 +19,5 @@ D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System
 D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System\Travel_System\obj\Debug\Travel_System.csproj.GenerateResource.Cache
 D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System\Travel_System\obj\Debug\Travel_System.exe
 D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System\Travel_System\obj\Debug\Travel_System.pdb
+D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System\Travel_System\bin\Debug\userdata.mdf
+D:\學校檔案\資工系四上\視窗程式\project\Travel_System\Travel_System\Travel_System\bin\Debug\userdata_log.ldf

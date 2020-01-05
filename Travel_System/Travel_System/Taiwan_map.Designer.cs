@@ -32,6 +32,8 @@
             this.name = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.east_area = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.user_account_label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.taiwan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.north_area)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.center_area)).BeginInit();
@@ -42,9 +44,10 @@
             // taiwan
             // 
             this.taiwan.Image = ((System.Drawing.Image)(resources.GetObject("taiwan.Image")));
-            this.taiwan.Location = new System.Drawing.Point(117, 86);
+            this.taiwan.Location = new System.Drawing.Point(72, 54);
+            this.taiwan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.taiwan.Name = "taiwan";
-            this.taiwan.Size = new System.Drawing.Size(736, 850);
+            this.taiwan.Size = new System.Drawing.Size(453, 531);
             this.taiwan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.taiwan.TabIndex = 0;
             this.taiwan.TabStop = false;
@@ -52,9 +55,10 @@
             // north_area
             // 
             this.north_area.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.north_area.Location = new System.Drawing.Point(493, 86);
+            this.north_area.Location = new System.Drawing.Point(303, 54);
+            this.north_area.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.north_area.Name = "north_area";
-            this.north_area.Size = new System.Drawing.Size(301, 264);
+            this.north_area.Size = new System.Drawing.Size(185, 165);
             this.north_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.north_area.TabIndex = 1;
             this.north_area.TabStop = false;
@@ -65,9 +69,10 @@
             // center_area
             // 
             this.center_area.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.center_area.Location = new System.Drawing.Point(258, 234);
+            this.center_area.Location = new System.Drawing.Point(159, 146);
+            this.center_area.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.center_area.Name = "center_area";
-            this.center_area.Size = new System.Drawing.Size(419, 344);
+            this.center_area.Size = new System.Drawing.Size(258, 215);
             this.center_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.center_area.TabIndex = 2;
             this.center_area.TabStop = false;
@@ -78,9 +83,10 @@
             // south_area
             // 
             this.south_area.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.south_area.Location = new System.Drawing.Point(216, 539);
+            this.south_area.Location = new System.Drawing.Point(133, 337);
+            this.south_area.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.south_area.Name = "south_area";
-            this.south_area.Size = new System.Drawing.Size(422, 406);
+            this.south_area.Size = new System.Drawing.Size(260, 254);
             this.south_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.south_area.TabIndex = 3;
             this.south_area.TabStop = false;
@@ -92,9 +98,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(1074, 244);
+            this.label1.Location = new System.Drawing.Point(661, 152);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(325, 55);
+            this.label1.Size = new System.Drawing.Size(204, 35);
             this.label1.TabIndex = 5;
             this.label1.Text = "目前選擇地區：";
             // 
@@ -102,9 +109,10 @@
             // 
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.name.Location = new System.Drawing.Point(1404, 244);
+            this.name.Location = new System.Drawing.Point(864, 152);
+            this.name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(282, 55);
+            this.name.Size = new System.Drawing.Size(177, 35);
             this.name.TabIndex = 6;
             this.name.Text = "地區名稱顯示";
             // 
@@ -112,9 +120,10 @@
             // 
             this.label3.BackColor = System.Drawing.Color.LightSalmon;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(1078, 86);
+            this.label3.Location = new System.Drawing.Point(663, 54);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(608, 89);
+            this.label3.Size = new System.Drawing.Size(374, 56);
             this.label3.TabIndex = 7;
             this.label3.Text = "請選擇地區";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -122,9 +131,10 @@
             // east_area
             // 
             this.east_area.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.east_area.Location = new System.Drawing.Point(527, 238);
+            this.east_area.Location = new System.Drawing.Point(324, 149);
+            this.east_area.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.east_area.Name = "east_area";
-            this.east_area.Size = new System.Drawing.Size(274, 698);
+            this.east_area.Size = new System.Drawing.Size(169, 436);
             this.east_area.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.east_area.TabIndex = 8;
             this.east_area.TabStop = false;
@@ -132,13 +142,36 @@
             this.east_area.MouseEnter += new System.EventHandler(this.north_area_MouseHover);
             this.east_area.MouseLeave += new System.EventHandler(this.north_area_MouseLeave);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(736, 519);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 38);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "使用者";
+            // 
+            // user_account_label
+            // 
+            this.user_account_label.AutoSize = true;
+            this.user_account_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.user_account_label.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.user_account_label.Location = new System.Drawing.Point(849, 519);
+            this.user_account_label.Name = "user_account_label";
+            this.user_account_label.Size = new System.Drawing.Size(124, 38);
+            this.user_account_label.TabIndex = 10;
+            this.user_account_label.Text = "Default";
+            // 
             // Taiwan_map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(1802, 1164);
+            this.ClientSize = new System.Drawing.Size(1109, 659);
+            this.Controls.Add(this.user_account_label);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.east_area);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.name);
@@ -147,8 +180,9 @@
             this.Controls.Add(this.center_area);
             this.Controls.Add(this.north_area);
             this.Controls.Add(this.taiwan);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Taiwan_map";
-            this.Padding = new System.Windows.Forms.Padding(0, 0, 20, 20);
+            this.Padding = new System.Windows.Forms.Padding(0, 0, 12, 12);
             this.Text = "Taiwan_map";
             this.Load += new System.EventHandler(this.Taiwan_map_Load);
             ((System.ComponentModel.ISupportInitialize)(this.taiwan)).EndInit();
@@ -171,5 +205,7 @@
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox east_area;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label user_account_label;
     }
 }

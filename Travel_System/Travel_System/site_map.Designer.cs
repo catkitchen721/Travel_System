@@ -36,6 +36,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.site_name = new System.Windows.Forms.Label();
             this.label_site = new System.Windows.Forms.Label();
+            this.user_account_label = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -47,6 +49,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -56,6 +59,8 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.user_account_label);
+            this.splitContainer1.Panel2.Controls.Add(this.label3);
             this.splitContainer1.Panel2.Controls.Add(this.button4);
             this.splitContainer1.Panel2.Controls.Add(this.button3);
             this.splitContainer1.Panel2.Controls.Add(this.button2);
@@ -66,8 +71,9 @@
             this.splitContainer1.Panel2.Controls.Add(this.button1);
             this.splitContainer1.Panel2.Controls.Add(this.site_name);
             this.splitContainer1.Panel2.Controls.Add(this.label_site);
-            this.splitContainer1.Size = new System.Drawing.Size(2474, 1035);
-            this.splitContainer1.SplitterDistance = 1149;
+            this.splitContainer1.Size = new System.Drawing.Size(1318, 647);
+            this.splitContainer1.SplitterDistance = 612;
+            this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 0;
             // 
             // gMapControl1
@@ -79,7 +85,8 @@
             this.gMapControl1.GrayScaleMode = false;
             this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(32, 124);
+            this.gMapControl1.Location = new System.Drawing.Point(20, 78);
+            this.gMapControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gMapControl1.MarkersEnabled = true;
             this.gMapControl1.MaxZoom = 2;
             this.gMapControl1.MinZoom = 2;
@@ -93,7 +100,7 @@
             this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(1068, 899);
+            this.gMapControl1.Size = new System.Drawing.Size(571, 562);
             this.gMapControl1.TabIndex = 1;
             this.gMapControl1.Zoom = 0D;
             this.gMapControl1.OnMarkerClick += new GMap.NET.WindowsForms.MarkerClick(this.gMapControl1_OnMarkerClick);
@@ -104,9 +111,10 @@
             this.label1.BackColor = System.Drawing.Color.Green;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(42, 21);
+            this.label1.Location = new System.Drawing.Point(26, 13);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(593, 74);
+            this.label1.Size = new System.Drawing.Size(365, 46);
             this.label1.TabIndex = 6;
             this.label1.Text = "我是可以縮放的 google 地圖";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -114,9 +122,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(632, 687);
+            this.button4.Location = new System.Drawing.Point(341, 429);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(209, 60);
+            this.button4.Size = new System.Drawing.Size(129, 38);
             this.button4.TabIndex = 11;
             this.button4.Text = "火車查詢";
             this.button4.UseVisualStyleBackColor = true;
@@ -124,9 +133,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button3.Location = new System.Drawing.Point(358, 687);
+            this.button3.Location = new System.Drawing.Point(194, 429);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(209, 60);
+            this.button3.Size = new System.Drawing.Size(129, 38);
             this.button3.TabIndex = 10;
             this.button3.Text = "附近住宿";
             this.button3.UseVisualStyleBackColor = true;
@@ -134,9 +144,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(916, 687);
+            this.button2.Location = new System.Drawing.Point(493, 429);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(209, 60);
+            this.button2.Size = new System.Drawing.Size(129, 38);
             this.button2.TabIndex = 10;
             this.button2.Text = "公車查詢";
             this.button2.UseVisualStyleBackColor = true;
@@ -145,56 +156,62 @@
             // 
             this.info_box.BackColor = System.Drawing.Color.White;
             this.info_box.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.info_box.Location = new System.Drawing.Point(668, 170);
+            this.info_box.Location = new System.Drawing.Point(344, 92);
+            this.info_box.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.info_box.Multiline = true;
             this.info_box.Name = "info_box";
             this.info_box.ReadOnly = true;
-            this.info_box.Size = new System.Drawing.Size(565, 437);
+            this.info_box.Size = new System.Drawing.Size(340, 275);
             this.info_box.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(660, 96);
+            this.label2.Location = new System.Drawing.Point(465, 60);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 48);
+            this.label2.Size = new System.Drawing.Size(109, 30);
             this.label2.TabIndex = 8;
             this.label2.Text = "景點資訊";
             // 
             // hScrollBar1
             // 
-            this.hScrollBar1.Location = new System.Drawing.Point(75, 565);
-            this.hScrollBar1.MaximumSize = new System.Drawing.Size(450, 35);
+            this.hScrollBar1.Location = new System.Drawing.Point(46, 353);
+            this.hScrollBar1.MaximumSize = new System.Drawing.Size(277, 22);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(450, 35);
+            this.hScrollBar1.Size = new System.Drawing.Size(277, 22);
             this.hScrollBar1.TabIndex = 7;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(75, 170);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 106);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(457, 361);
+            this.pictureBox1.Size = new System.Drawing.Size(281, 226);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(101, 687);
+            this.button1.Location = new System.Drawing.Point(46, 429);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(209, 60);
+            this.button1.Size = new System.Drawing.Size(129, 38);
             this.button1.TabIndex = 1;
             this.button1.Text = "加入名單";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // site_name
             // 
             this.site_name.AutoSize = true;
             this.site_name.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.site_name.Location = new System.Drawing.Point(289, 96);
+            this.site_name.Location = new System.Drawing.Point(178, 60);
+            this.site_name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.site_name.Name = "site_name";
-            this.site_name.Size = new System.Drawing.Size(96, 48);
+            this.site_name.Size = new System.Drawing.Size(61, 30);
             this.site_name.TabIndex = 4;
             this.site_name.Text = "緯度";
             // 
@@ -202,19 +219,42 @@
             // 
             this.label_site.AutoSize = true;
             this.label_site.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label_site.Location = new System.Drawing.Point(67, 96);
+            this.label_site.Location = new System.Drawing.Point(41, 60);
+            this.label_site.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_site.Name = "label_site";
-            this.label_site.Size = new System.Drawing.Size(210, 48);
+            this.label_site.Size = new System.Drawing.Size(134, 31);
             this.label_site.TabIndex = 3;
             this.label_site.Text = "景點名稱：";
             // 
+            // user_account_label
+            // 
+            this.user_account_label.AutoSize = true;
+            this.user_account_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.user_account_label.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.user_account_label.Location = new System.Drawing.Point(333, 584);
+            this.user_account_label.Name = "user_account_label";
+            this.user_account_label.Size = new System.Drawing.Size(124, 38);
+            this.user_account_label.TabIndex = 13;
+            this.user_account_label.Text = "Default";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(220, 584);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 38);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "使用者";
+            // 
             // site_map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(2474, 1035);
+            this.ClientSize = new System.Drawing.Size(1318, 647);
             this.Controls.Add(this.splitContainer1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinimizeBox = false;
             this.Name = "site_map";
             this.Text = "site_map";
@@ -245,5 +285,7 @@
         private System.Windows.Forms.TextBox info_box;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.Label user_account_label;
+        private System.Windows.Forms.Label label3;
     }
 }

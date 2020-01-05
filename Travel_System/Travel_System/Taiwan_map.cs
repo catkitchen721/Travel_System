@@ -36,6 +36,9 @@ namespace Travel_System {
             east_area.BackColor = Color.Transparent;
             east_area.Parent = taiwan;
 
+            // user account
+            user_account_label.Text = login.user_account;
+
             area_picbox = new PictureBox[4] { north_area, center_area, south_area, east_area};
         }
 

@@ -16,7 +16,8 @@ namespace Travel_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Taiwan_map());
+            //Application.Run(new Taiwan_map());
+            Application.Run(new login());
         }
     }
 }

@@ -30,64 +30,69 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             this.title_image = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.login_bt = new System.Windows.Forms.Button();
+            this.userin = new System.Windows.Forms.TextBox();
+            this.pswin = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.signup_bt = new System.Windows.Forms.Button();
+            this.intro_bt = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.title_image)).BeginInit();
             this.SuspendLayout();
             // 
             // title_image
             // 
             this.title_image.Image = ((System.Drawing.Image)(resources.GetObject("title_image.Image")));
-            this.title_image.Location = new System.Drawing.Point(235, 111);
+            this.title_image.Location = new System.Drawing.Point(145, 69);
             this.title_image.Margin = new System.Windows.Forms.Padding(0);
             this.title_image.Name = "title_image";
-            this.title_image.Size = new System.Drawing.Size(1067, 276);
+            this.title_image.Size = new System.Drawing.Size(657, 172);
             this.title_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.title_image.TabIndex = 0;
             this.title_image.TabStop = false;
             this.title_image.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button1
+            // login_bt
             // 
-            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(354, 683);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 76);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "登入";
-            this.button1.UseVisualStyleBackColor = false;
+            this.login_bt.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.login_bt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.login_bt.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.login_bt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.login_bt.Location = new System.Drawing.Point(218, 427);
+            this.login_bt.Margin = new System.Windows.Forms.Padding(2);
+            this.login_bt.Name = "login_bt";
+            this.login_bt.Size = new System.Drawing.Size(118, 48);
+            this.login_bt.TabIndex = 1;
+            this.login_bt.Text = "登入";
+            this.login_bt.UseVisualStyleBackColor = false;
+            this.login_bt.Click += new System.EventHandler(this.login_bt_Click);
             // 
-            // textBox1
+            // userin
             // 
-            this.textBox1.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox1.Location = new System.Drawing.Point(699, 436);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(499, 57);
-            this.textBox1.TabIndex = 3;
+            this.userin.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.userin.Location = new System.Drawing.Point(430, 272);
+            this.userin.Margin = new System.Windows.Forms.Padding(2);
+            this.userin.Name = "userin";
+            this.userin.Size = new System.Drawing.Size(309, 39);
+            this.userin.TabIndex = 3;
             // 
-            // textBox2
+            // pswin
             // 
-            this.textBox2.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox2.Location = new System.Drawing.Point(699, 539);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(499, 57);
-            this.textBox2.TabIndex = 4;
+            this.pswin.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.pswin.Location = new System.Drawing.Point(430, 337);
+            this.pswin.Margin = new System.Windows.Forms.Padding(2);
+            this.pswin.Name = "pswin";
+            this.pswin.Size = new System.Drawing.Size(309, 39);
+            this.pswin.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(299, 445);
+            this.label1.Location = new System.Drawing.Point(184, 278);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 54);
+            this.label1.Size = new System.Drawing.Size(218, 34);
             this.label1.TabIndex = 5;
             this.label1.Text = "使用者 user       : ";
             // 
@@ -95,51 +100,58 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(300, 548);
+            this.label2.Location = new System.Drawing.Point(185, 342);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(346, 54);
+            this.label2.Size = new System.Drawing.Size(217, 34);
             this.label2.TabIndex = 6;
             this.label2.Text = "密碼 password : ";
             // 
-            // button2
+            // signup_bt
             // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(672, 683);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 76);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "註冊";
-            this.button2.UseVisualStyleBackColor = false;
+            this.signup_bt.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.signup_bt.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.signup_bt.Location = new System.Drawing.Point(414, 427);
+            this.signup_bt.Margin = new System.Windows.Forms.Padding(2);
+            this.signup_bt.Name = "signup_bt";
+            this.signup_bt.Size = new System.Drawing.Size(118, 48);
+            this.signup_bt.TabIndex = 7;
+            this.signup_bt.Text = "註冊";
+            this.signup_bt.UseVisualStyleBackColor = false;
+            this.signup_bt.Click += new System.EventHandler(this.signup_bt_Click);
             // 
-            // button3
+            // intro_bt
             // 
-            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button3.Location = new System.Drawing.Point(1007, 683);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 76);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "系統介紹";
-            this.button3.UseVisualStyleBackColor = false;
+            this.intro_bt.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.intro_bt.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.intro_bt.Location = new System.Drawing.Point(620, 427);
+            this.intro_bt.Margin = new System.Windows.Forms.Padding(2);
+            this.intro_bt.Name = "intro_bt";
+            this.intro_bt.Size = new System.Drawing.Size(118, 48);
+            this.intro_bt.TabIndex = 8;
+            this.intro_bt.Text = "系統介紹";
+            this.intro_bt.UseVisualStyleBackColor = false;
+            this.intro_bt.Click += new System.EventHandler(this.intro_bt_Click);
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(1540, 878);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(948, 549);
+            this.Controls.Add(this.intro_bt);
+            this.Controls.Add(this.signup_bt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pswin);
+            this.Controls.Add(this.userin);
+            this.Controls.Add(this.login_bt);
             this.Controls.Add(this.title_image);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "login";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.login_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.title_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -149,13 +161,13 @@
         #endregion
 
         private System.Windows.Forms.PictureBox title_image;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button login_bt;
+        private System.Windows.Forms.TextBox userin;
+        private System.Windows.Forms.TextBox pswin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button signup_bt;
+        private System.Windows.Forms.Button intro_bt;
     }
 }
 

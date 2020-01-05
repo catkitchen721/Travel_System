@@ -114,6 +114,19 @@ namespace Travel_System
 
         private void intro_bt_Click(object sender, EventArgs e)
         {
+            List<BusInfo> businfos = ptx_search.get_info_by_city("Tainan");
+            if (businfos != null)
+            {
+                foreach (BusInfo businfo in businfos)
+                {
+                    Console.WriteLine(businfo.RouteMapImageUrl + " " + businfo.DepartureStopNameZh + "->" + businfo.DestinationStopNameZh);
+                }
+                Console.WriteLine(ptx_search.get_image_by_depdes(businfos, "安平", "大灣"));
+            }
+            List<BusSchedule> busschedules = ptx_search.get_schedule_by_city("Tainan");
+            ptx_search.get_schedule_by_depdes(businfos, busschedules, "安平", "大灣");
+
+            /*
             ds_all_account = new DataSet();
             all_account = new SqlDataAdapter(all_account_cmd, cn);
             all_account.Fill(ds_all_account);
@@ -127,6 +140,7 @@ namespace Travel_System
                 }
                 MessageBox.Show(allusers, "System");
             }
+            */
         }
 
         private void login_bt_Click(object sender, EventArgs e)

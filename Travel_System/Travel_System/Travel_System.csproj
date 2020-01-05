@@ -87,6 +87,10 @@
     <Compile Include="area_map.Designer.cs">
       <DependentUpon>area_map.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper\HttpClientHelper.cs" />
+    <Compile Include="Helper\SignatureHelper.cs" />
+    <Compile Include="Helper\XDateHelper.cs" />
+    <Compile Include="HttpClientPTXExtenstion.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +99,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ptx_search.cs" />
     <Compile Include="ReadFile.cs" />
     <Compile Include="site_map.cs">
       <SubType>Form</SubType>

@@ -38,15 +38,12 @@ namespace Travel_System {
         public string LAT;
         public int INDEX_PIC;
 
+        public int site_index;
+
         public area_map form1 = null;
         public site_map() {
             InitializeComponent();
-            gMapControl1.Height = 800;
-            gMapControl1.Width = 1000;
-            this.Height = 800;
-            this.Width = 1200;
-            splitContainer1.Panel1MinSize = 800;
-            splitContainer1.Panel2MinSize = 400;
+
         }
 
         private void site_map_Load(object sender, EventArgs e) {
@@ -87,9 +84,6 @@ namespace Travel_System {
                 }
                 file_is_created = 1;
             }
-
-
-
             /*** marker sample
             
             marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.red);
@@ -110,14 +104,14 @@ namespace Travel_System {
             }
             gMapControl1.Position = new PointLatLng(ReadFile.location_list[0][1], ReadFile.location_list[0][0]);
             site_name.Text = form1.city_name;
-            
+
         }
 
         private void add_markers_on_map(int index, GMapOverlay gmap) {
-            
+
             //marker_overlay = new GMapOverlay("Marcador");
-            double lon = (double)ReadFile.location_list[0][index*2];
-            double lat = (double)ReadFile.location_list[0][index*2+1];
+            double lon = (double)ReadFile.location_list[index][0];
+            double lat = (double)ReadFile.location_list[index][1];
             marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.red);
             gmap.Markers.Add(marker);
             marker.ToolTipMode = MarkerTooltipMode.Always;
@@ -125,12 +119,24 @@ namespace Travel_System {
             gmap.Markers.Add(marker);
             gMapControl1.Overlays.Add(gmap);
             marker_list.Add(marker);
-            
+
         }
 
         private void gMapControl1_OnMarkerClick(GMapMarker item, MouseEventArgs e) {
             // 當滑鼠點擊座標
-            //MessageBox.Show(item.Position.Lng.ToString());
+            int index = marker_list.IndexOf((GMarkerGoogle)item);
+            site_index = index;
+            info_box.Text = ReadFile.site_name_list[index] + "\r\n";
+            info_box.Text += (ReadFile.self_drive_list[index] + "\r\n");
+
+            try {
+                info_box.Text += ("[" + ReadFile.public_traffic_list[index][0] + "]\r\n");
+                info_box.Text += ("[" + ReadFile.public_traffic_list[index][1] + "]\r\n");
+            }
+            catch (Exception exception) {
+                ;
+            }
+            hScrollBar1.Maximum = ReadFile.photo_list[index].Count;
         }
 
         private void gMapControl1_OnMarkerEnter(GMapMarker item) {
@@ -160,11 +166,21 @@ namespace Travel_System {
             if (url_temp.Contains("https:"))
             {
                 url_temp=url_temp.Replace("https", "http");
-                pictureBox1.LoadAsync(url_temp);
-                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                photo_box.LoadAsync(url_temp);
+                photo_box.SizeMode = PictureBoxSizeMode.StretchImage;
             }
                 
 
+        }
+        private string extract_station(string info) {
+            int start = info.IndexOf("臺鐵至");
+            if (start == -1)
+                return "-1";
+            else
+                start += 3;
+            int end = info.Substring(start).IndexOf("站");
+            MessageBox.Show(info.Substring(start, end));
+            return info.Substring(start, end);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -185,6 +201,30 @@ namespace Travel_System {
                     sw.WriteLine(LON+","+LAT + "," + site_name_wf);
             }
         }
+        private void button4_Click(object sender, EventArgs e) {
+            train_website train_page = new train_website();
+            train_page.site_form = this;
+            if (site_index == -1) {
+                MessageBox.Show("Please select a site.\n");
+                return;
+            }
+            //string test_info = "搭臺鐵至水里站下-轉搭員林客運(往東埔)至東埔站下";
+            train_page.dest_station = extract_station(ReadFile.public_traffic_list[site_index][0]);
+            if (train_page.dest_station == "-1") {
+                try {
+                    train_page.dest_station = extract_station(ReadFile.public_traffic_list[site_index][1]);
+                }
+                catch (Exception ex) {
+                    ;
+                }
+            }
+            if (train_page.dest_station == "-1") {
+                MessageBox.Show("這個景點沒辦法用火車抵達");
+            }
+            else {
+                train_page.ShowDialog();
+            }
+        }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
@@ -201,9 +241,21 @@ namespace Travel_System {
             if (url_temp.Contains("https:"))
             {
                 url_temp = url_temp.Replace("https", "http");
-                pictureBox1.LoadAsync(url_temp);
-                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                photo_box.LoadAsync(url_temp);
+                photo_box.SizeMode = PictureBoxSizeMode.StretchImage;
             }
+        }
+        private void close_form(object sender, EventArgs e) {
+            ReadFile.clear_data();
+        }
+
+        private void button_hotel_Click(object sender, EventArgs e) {
+            hotel_page form2 = new hotel_page();
+            form2.form1 = this;
+            form2.city_name = city_name;
+            form2.area = area_name;
+            form2.ShowDialog();
+
         }
     }
 }

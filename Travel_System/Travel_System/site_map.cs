@@ -18,11 +18,11 @@ using System.Net;
 
 namespace Travel_System {
     public partial class site_map : Form {
-        GMarkerGoogle marker;
-        GMapOverlay marker_overlay;
-        DataTable dt;
+        public static GMarkerGoogle marker;
+        public static GMapOverlay marker_overlay;
+        public static DataTable dt;
 
-        List<GMarkerGoogle> marker_list = new List<GMarkerGoogle>();
+        public static List<GMarkerGoogle> marker_list = new List<GMarkerGoogle>();
         int fila = 0;
         
         public string area_name;
@@ -47,6 +47,7 @@ namespace Travel_System {
         }
 
         private void site_map_Load(object sender, EventArgs e) {
+            this.FormClosed += close_form;
             // initial setting
             gMapControl1.DragButton = MouseButtons.Left;
             gMapControl1.CanDragMap = true;
@@ -97,9 +98,10 @@ namespace Travel_System {
 
             string file_name = area_name + "_" + city_name + ".txt";
             int total_site_number = ReadFile.read_scene_file(file_name);
-            info_box.Text = ReadFile.site_name_list[0];
-            info_box.Text += ("[" + total_site_number.ToString() + "]\n");
-            info_box.Text = ReadFile.location_list[1].Count.ToString();
+            //info_box.Text = ReadFile.site_name_list[0];
+            site_name.Text = ReadFile.site_name_list[0];
+            //info_box.Text += ("[" + total_site_number.ToString() + "]\n");
+            //info_box.Text = ReadFile.location_list[1].Count.ToString();
             for (int i = 0; i < ReadFile.site_name_list.Count; i++) {
                 add_markers_on_map(i, marker_overlay);
             }
@@ -126,21 +128,45 @@ namespace Travel_System {
         private void gMapControl1_OnMarkerClick(GMapMarker item, MouseEventArgs e) {
             // 當滑鼠點擊座標
             int index = marker_list.IndexOf((GMarkerGoogle)item);
+            //MessageBox.Show(index.ToString() + " / " + ReadFile.site_name_list.Count.ToString());
             site_index = index;
             INDEX_PIC = index;
             info_box.Text = ReadFile.site_name_list[index] + "\r\n";
 
             site_name_wf = info_box.Text;
 
-            info_box.Text += (ReadFile.self_drive_list[index] + "\r\n");
+            // 顯示交通資訊
+            string self_drive = ReadFile.self_drive_list[index];
+            string text = "";
+            if (self_drive.Contains("-") == true || self_drive.Contains("國道") == true) {
+                info_box.Text += ("自行開車:\r\n" + self_drive + "\r\n\r\n");
+                if(ReadFile.public_traffic_list[index].Count>0)
+                    info_box.Text += ("大眾工具:\r\n" + ReadFile.public_traffic_list[index][0]+ "\r\n");
+            }
+            else {
+                text = ReadFile.public_traffic_list[index][0];
+                if (text.Contains("-") == true || text.Contains("國道") == true) {
+                    info_box.Text += ("自行開車:\r\n" + text + "\r\n\r\n");
+                    
+                }
+                else {
+                    info_box.Text += ("自行開車:\r\n無法自行開車抵達\r\n\r\n");
+                    if (text == "") {
+                        try {
+                            info_box.Text += (ReadFile.public_traffic_list[index][1] + "\r\n");
+                        }
+                        catch (Exception e1) {
+                            ;
+                        }
+                    }
+                    else {
+                        info_box.Text += ("大眾工具:\r\n" + text + "\r\n");
+                    }
+                    
+                    
+                }
+            }
 
-            try {
-                info_box.Text += ("[" + ReadFile.public_traffic_list[index][0] + "]\r\n");
-                info_box.Text += ("[" + ReadFile.public_traffic_list[index][1] + "]\r\n");
-            }
-            catch (Exception exception) {
-                ;
-            }
             //hScrollBar1.Maximum = ReadFile.photo_list[index].Count;
             site_name_wf = ReadFile.site_name_list[INDEX_PIC];
             LON = item.Position.Lng.ToString();
@@ -177,7 +203,7 @@ namespace Travel_System {
             else
                 start += 3;
             int end = info.Substring(start).IndexOf("站");
-            MessageBox.Show(info.Substring(start, end));
+            //MessageBox.Show(info.Substring(start, end));
             return info.Substring(start, end);
         }
 
@@ -207,8 +233,11 @@ namespace Travel_System {
                 return;
             }
             //string test_info = "搭臺鐵至水里站下-轉搭員林客運(往東埔)至東埔站下";
-            train_page.dest_station = extract_station(ReadFile.public_traffic_list[site_index][0]);
-            if (train_page.dest_station == "-1") {
+            if (ReadFile.public_traffic_list[site_index].Count != 0)
+                train_page.dest_station = extract_station(ReadFile.public_traffic_list[site_index][0]);
+            else
+                train_page.dest_station = "-1";
+            if (train_page.dest_station == "-1" && ReadFile.public_traffic_list[site_index].Count > 1) {
                 try {
                     train_page.dest_station = extract_station(ReadFile.public_traffic_list[site_index][1]);
                 }
@@ -245,6 +274,7 @@ namespace Travel_System {
         }
         private void close_form(object sender, EventArgs e) {
             ReadFile.clear_data();
+
         }
 
         private void button_hotel_Click(object sender, EventArgs e) {

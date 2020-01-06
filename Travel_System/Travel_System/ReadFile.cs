@@ -162,7 +162,7 @@ namespace Travel_System {
                     case 5:
                         int self_count = self_drive_list.Count;
                         if (line.Length <= 2 || self_count == 0) {
-                            substring_traffic.Add("QQQ");
+                            substring_traffic.Add("");
                             break;
                         }
 
@@ -210,7 +210,13 @@ namespace Travel_System {
             location_list.Clear();
             self_drive_list.Clear();
             public_traffic_list.Clear();
-        }
+
+            //clear all markers
+            site_map.marker_list.Clear();
+            site_map.marker.Dispose();
+            site_map.marker_overlay.Clear();
+            
+    }
 
     }
 }

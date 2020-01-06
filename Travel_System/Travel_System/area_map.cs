@@ -28,6 +28,7 @@ namespace Travel_System {
             Image img = Image.FromFile(Taiwan_map.pic_folder + area_name_file + "_area.png");
             area_map_image.Image = img;
             area_map_image.SizeMode = PictureBoxSizeMode.Zoom;
+            this.FormClosed += close_form;
         }
 
         private void city_button_click(object sender, EventArgs e) {
@@ -58,6 +59,11 @@ namespace Travel_System {
                 this.Controls.Add(new_button);
                 new_button.Click += city_button_click;
             }
+        }
+        private void close_form(object sender, EventArgs e) {
+            area_name = "";
+            city_name = "";
+            area_name_file = "";
         }
     }
 }

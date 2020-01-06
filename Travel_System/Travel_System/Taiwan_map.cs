@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
+using System.IO;
 
 namespace Travel_System {
     public partial class Taiwan_map : Form {
         public const string pic_folder = "../../../../image/";
-        string[] image_list = new string[4] { "north_area.png", "center_area.png", "south_area.png", "east_area.png" };
-        string[] area_name = new string[4] { "北部地區", "中部地區", "南部地區", "東部地區" };
-        string[] area_file_header = new string[4] { "north", "center", "south", "east" };
+        string[] image_list = new string[5] { "north_area.png", "center_area.png", "south_area.png", "east_area.png", "outer_area.png" };
+        string[] area_name = new string[5] { "北部地區", "中部地區", "南部地區", "東部地區", "離島地區" };
+        string[] area_file_header = new string[5] { "north", "center", "south", "east", "outer" };
         PictureBox[] area_picbox;
 
         public Taiwan_map() {
@@ -24,6 +26,7 @@ namespace Travel_System {
             center_area.Location = new Point(60, 80);
             south_area.Location = new Point(50, 220);
             east_area.Location = new Point(170, 70);
+            outer_area.Location = new Point(25, 190);
             taiwan.Location = new Point(100, 70);
 
             // transparent background
@@ -35,17 +38,58 @@ namespace Travel_System {
             south_area.Parent = taiwan;
             east_area.BackColor = Color.Transparent;
             east_area.Parent = taiwan;
+            outer_area.BackColor = Color.Transparent;
+            outer_area.Parent = taiwan;
 
-            // user account
-            user_account_label.Text = login.user_account;
-
-            area_picbox = new PictureBox[4] { north_area, center_area, south_area, east_area};
+            area_picbox = new PictureBox[5] { north_area, center_area, south_area, east_area, outer_area };
         }
 
         private void Taiwan_map_Load(object sender, EventArgs e) {
             Image content = Image.FromFile(pic_folder + "taiwan.png");
             taiwan.Image = content;
             ReadFile.read_area_city_file("area_city.txt");
+            ReadFile.build_city_station_info();
+            ReadFile.read_train_order();
+            string d = read_station_train_file();
+            //MessageBox.Show("count=" + d);
+        }
+
+        public static string read_station_train_file() {
+            string file_name = "../../../../data/train/station_train.txt";
+            StreamReader file = new StreamReader(file_name);
+            string line;
+            int count = 0;
+            string tmp = "";
+            while (true) {
+
+                string name = file.ReadLine();
+                if (name == null) {
+                    break;
+                }
+                List<List<string>> concat = new List<List<string>>();
+                List<string> station_code = new List<string> { file.ReadLine() };
+                line = file.ReadLine();
+                List<string> substring_train = new List<string>();
+                List<string> substring_order = new List<string>();
+                while (true) {
+
+                    line = file.ReadLine();
+                    if (String.Compare("- - - end - - -", line) == 0)
+                        break;
+                    string[] data = Regex.Split(line, " ");
+                    substring_train.Add(data[0]);
+                    substring_order.Add(data[1]);
+                }
+                concat.Add(station_code);
+                concat.Add(substring_train);
+                concat.Add(substring_order);
+
+                ReadFile.station_train_dict.Add(name, concat);
+                count += concat.Count;
+                tmp = name;
+            }
+            //MessageBox.Show(ReadFile.station_train_dict["板橋"][1].Count.ToString());
+            return tmp;
         }
 
         private void north_area_MouseHover(object sender, EventArgs e) {

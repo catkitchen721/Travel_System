@@ -2,10 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-#area_dict = {"north": "1", "center": "2", "south": "3", "east": "4"}
-area_dict = {"outer": "5"}
-out_scene_folder = "./scene/"
-out_content_folder = "./content/"
+area_dict = {"north": "1", "center": "2", "south": "3", "east": "4"}
 
 def grab_area_city(area_key):
 	'''
@@ -33,8 +30,7 @@ def grab_city_site(county, county_url, area):
 	res = requests.get(county_url)
 	content = res.content.decode()
 	file_name = area + "_" + county + ".txt"
-	file = open(out_scene_folder + file_name, "w", encoding='UTF-8')
-	content_file = open(out_content_folder + file_name, "w", encoding='UTF-8')
+	file = open(file_name, "w", encoding='UTF-8')
 
 	# 取得資料進行整理
 	soup = BeautifulSoup(content, 'html.parser')
@@ -56,7 +52,6 @@ def grab_city_site(county, county_url, area):
 			file.write("ERROR\n-\n")
 		# print("景點名\n%s\n-\n連結\n%s-" % (title, href))
 		grab_site_info(href, file)
-		grab_site_content(href, content_file)
 		
 	file.close()
 		
@@ -87,27 +82,6 @@ def get_location(soup, file):
 			line = "經緯度\n" + string[0] + "\n" + string[1] + "\n-\n"
 			file.write(line)
 			break
-
-def get_content(soup, file):
-	# content
-	info = soup.find_all(class_="wrap")
-	#info = info.contents
-	info = info[4].contents
-
-	for item in info:
-		if(str(type(item)) != "<class 'bs4.element.Tag'>"):
-			continue
-		if(item.name == "p"):
-			file.write(str(item.text) + "\n")
-		'''
-		if("/" in item.string):
-			string = str(item.string).replace("/", " ").split(" ")
-			# print("經緯度：", string[0], string[1], sep="\n")
-			line = "經緯度\n" + string[0] + "\n" + string[1] + "\n-\n"
-			file.write(line)
-			break
-		'''
-	
 
 def get_traffic(soup, file):
 	info = soup.find("article")
@@ -162,25 +136,8 @@ def grab_site_info(url, file):
 	file.write("- - - end - - -\n")
 	print("- - - end - - -")
 
-def grab_site_content(url, file):
-	'''
-	單一景點說明
-	'''
-	# url_title = "https://www.taiwan.net.tw/"
-
-	res = requests.get(url)
-	content = res.content.decode()
-
-	# 取得資料進行整理
-	soup = BeautifulSoup(content, 'html.parser')
-	get_content(soup, file)
-	# print("-")
-	file.write("- - - end - - -\n")
-	print("- - - end - - -")
-
 def crawler_all_area():
 	for area in area_dict:
-		grab_area_city(area)
+		grab_area_city("north")
 
-crawler_all_area()
 print("finish")

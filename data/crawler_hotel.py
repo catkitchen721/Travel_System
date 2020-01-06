@@ -87,6 +87,7 @@ def read_hotel_file(file_name):
 					address = address_line[:3]
 
 					if("市" in address or "縣" in address):
+						write_content += address_line
 						# print("success")
 						pass
 					else:

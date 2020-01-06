@@ -90,6 +90,12 @@
     <Compile Include="Helper\HttpClientHelper.cs" />
     <Compile Include="Helper\SignatureHelper.cs" />
     <Compile Include="Helper\XDateHelper.cs" />
+    <Compile Include="hotel_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotel_page.Designer.cs">
+      <DependentUpon>hotel_page.cs</DependentUpon>
+    </Compile>
     <Compile Include="HttpClientPTXExtenstion.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -119,8 +125,17 @@
     <Compile Include="Taiwan_map.Designer.cs">
       <DependentUpon>Taiwan_map.cs</DependentUpon>
     </Compile>
+    <Compile Include="train_website.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="train_website.Designer.cs">
+      <DependentUpon>train_website.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="area_map.resx">
       <DependentUpon>area_map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hotel_page.resx">
+      <DependentUpon>hotel_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -142,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Taiwan_map.resx">
       <DependentUpon>Taiwan_map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="train_website.resx">
+      <DependentUpon>train_website.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

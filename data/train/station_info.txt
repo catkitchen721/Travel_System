@@ -1,0 +1,3346 @@
+station name
+臺東
+-
+station code
+6000
+-
+city
+臺東縣
+-
+location
+121.12326
+22.79375
+-
+- - - end - - -
+station name
+山里
+-
+station code
+6010
+-
+city
+臺東縣
+-
+location
+121.13778
+22.86194
+-
+- - - end - - -
+station name
+鹿野
+-
+station code
+6020
+-
+city
+臺東縣
+-
+location
+121.13696
+22.91251
+-
+- - - end - - -
+station name
+瑞源
+-
+station code
+6030
+-
+city
+臺東縣
+-
+location
+121.15902
+22.95613
+-
+- - - end - - -
+station name
+瑞和
+-
+station code
+6040
+-
+city
+臺東縣
+-
+location
+121.15573
+22.98001
+-
+- - - end - - -
+station name
+關山
+-
+station code
+6050
+-
+city
+臺東縣
+-
+location
+121.16441
+23.04564
+-
+- - - end - - -
+station name
+海端
+-
+station code
+6060
+-
+city
+臺東縣
+-
+location
+121.17695
+23.10257
+-
+- - - end - - -
+station name
+池上
+-
+station code
+6070
+-
+city
+臺東縣
+-
+location
+121.21945
+23.12628
+-
+- - - end - - -
+station name
+富里
+-
+station code
+6080
+-
+city
+花蓮縣
+-
+location
+121.24864
+23.17935
+-
+- - - end - - -
+station name
+東里
+-
+station code
+6100
+-
+city
+花蓮縣
+-
+location
+121.30575
+23.27127
+-
+- - - end - - -
+station name
+玉里
+-
+station code
+6110
+-
+city
+花蓮縣
+-
+location
+121.31181
+23.33161
+-
+- - - end - - -
+station name
+三民
+-
+station code
+6120
+-
+city
+花蓮縣
+-
+location
+121.34561
+23.42463
+-
+- - - end - - -
+station name
+瑞穗
+-
+station code
+6130
+-
+city
+花蓮縣
+-
+location
+121.37689
+23.49739
+-
+- - - end - - -
+station name
+富源
+-
+station code
+6140
+-
+city
+花蓮縣
+-
+location
+121.38003
+23.58028
+-
+- - - end - - -
+station name
+光復
+-
+station code
+6160
+-
+city
+花蓮縣
+-
+location
+121.42125
+23.66633
+-
+- - - end - - -
+station name
+萬榮
+-
+station code
+6170
+-
+city
+花蓮縣
+-
+location
+121.41907
+23.71199
+-
+- - - end - - -
+station name
+鳳林
+-
+station code
+6180
+-
+city
+花蓮縣
+-
+location
+121.44708
+23.74625
+-
+- - - end - - -
+station name
+南平
+-
+station code
+6190
+-
+city
+花蓮縣
+-
+location
+121.45833
+23.78228
+-
+- - - end - - -
+station name
+林榮新光
+-
+station code
+6200
+-
+city
+花蓮縣
+-
+location
+121.46166
+23.80167
+-
+- - - end - - -
+station name
+豐田
+-
+station code
+6210
+-
+city
+花蓮縣
+-
+location
+121.49619
+23.84836
+-
+- - - end - - -
+station name
+平和
+-
+station code
+6230
+-
+city
+花蓮縣
+-
+location
+121.52036
+23.88275
+-
+- - - end - - -
+station name
+志學
+-
+station code
+6240
+-
+city
+花蓮縣
+-
+location
+121.52947
+23.90751
+-
+- - - end - - -
+station name
+吉安
+-
+station code
+6250
+-
+city
+花蓮縣
+-
+location
+121.58261
+23.96825
+-
+- - - end - - -
+station name
+花蓮
+-
+station code
+7000
+-
+city
+花蓮縣
+-
+location
+121.60158
+23.99264
+-
+- - - end - - -
+station name
+北埔
+-
+station code
+7010
+-
+city
+花蓮縣
+-
+location
+121.60189
+24.03251
+-
+- - - end - - -
+station name
+景美
+-
+station code
+7020
+-
+city
+花蓮縣
+-
+location
+121.61103
+24.09039
+-
+- - - end - - -
+station name
+新城
+-
+station code
+7030
+-
+city
+花蓮縣
+-
+location
+121.64103
+24.12761
+-
+- - - end - - -
+station name
+崇德
+-
+station code
+7040
+-
+city
+花蓮縣
+-
+location
+121.65555
+24.17111
+-
+- - - end - - -
+station name
+和仁
+-
+station code
+7050
+-
+city
+花蓮縣
+-
+location
+121.71192
+24.24219
+-
+- - - end - - -
+station name
+和平
+-
+station code
+7060
+-
+city
+花蓮縣
+-
+location
+121.75322
+24.29825
+-
+- - - end - - -
+station name
+漢本
+-
+station code
+7070
+-
+city
+宜蘭縣
+-
+location
+121.76827
+24.33541
+-
+- - - end - - -
+station name
+武塔
+-
+station code
+7080
+-
+city
+宜蘭縣
+-
+location
+121.77601
+24.44879
+-
+- - - end - - -
+station name
+南澳
+-
+station code
+7090
+-
+city
+宜蘭縣
+-
+location
+121.80103
+24.46342
+-
+- - - end - - -
+station name
+東澳
+-
+station code
+7100
+-
+city
+宜蘭縣
+-
+location
+121.83071
+24.51828
+-
+- - - end - - -
+station name
+永樂
+-
+station code
+7110
+-
+city
+宜蘭縣
+-
+location
+121.84458
+24.56843
+-
+- - - end - - -
+station name
+蘇澳新
+-
+station code
+7130
+-
+city
+宜蘭縣
+-
+location
+121.82719
+24.60852
+-
+- - - end - - -
+station name
+新馬
+-
+station code
+7140
+-
+city
+宜蘭縣
+-
+location
+121.82292
+24.61535
+-
+- - - end - - -
+station name
+羅東
+-
+station code
+7160
+-
+city
+宜蘭縣
+-
+location
+121.77424
+24.67795
+-
+- - - end - - -
+station name
+中里
+-
+station code
+7170
+-
+city
+宜蘭縣
+-
+location
+121.77526
+24.69415
+-
+- - - end - - -
+station name
+二結
+-
+station code
+7180
+-
+city
+宜蘭縣
+-
+location
+121.77411
+24.70529
+-
+- - - end - - -
+station name
+宜蘭
+-
+station code
+7190
+-
+city
+宜蘭縣
+-
+location
+121.75791
+24.75462
+-
+- - - end - - -
+station name
+四城
+-
+station code
+7200
+-
+city
+宜蘭縣
+-
+location
+121.76268
+24.78684
+-
+- - - end - - -
+station name
+礁溪
+-
+station code
+7210
+-
+city
+宜蘭縣
+-
+location
+121.77523
+24.82705
+-
+- - - end - - -
+station name
+頂埔
+-
+station code
+7220
+-
+city
+宜蘭縣
+-
+location
+121.80918
+24.84383
+-
+- - - end - - -
+station name
+頭城
+-
+station code
+7230
+-
+city
+宜蘭縣
+-
+location
+121.82251
+24.85903
+-
+- - - end - - -
+station name
+外澳
+-
+station code
+7240
+-
+city
+宜蘭縣
+-
+location
+121.84575
+24.88371
+-
+- - - end - - -
+station name
+龜山
+-
+station code
+7250
+-
+city
+宜蘭縣
+-
+location
+121.86886
+24.90481
+-
+- - - end - - -
+station name
+大溪
+-
+station code
+7260
+-
+city
+宜蘭縣
+-
+location
+121.88987
+24.93834
+-
+- - - end - - -
+station name
+大里
+-
+station code
+7270
+-
+city
+宜蘭縣
+-
+location
+121.92251
+24.96682
+-
+- - - end - - -
+station name
+石城
+-
+station code
+7280
+-
+city
+宜蘭縣
+-
+location
+121.94524
+24.97842
+-
+- - - end - - -
+station name
+福隆
+-
+station code
+7290
+-
+city
+新北市
+-
+location
+121.94471
+25.01598
+-
+- - - end - - -
+station name
+貢寮
+-
+station code
+7300
+-
+city
+新北市
+-
+location
+121.90867
+25.02209
+-
+- - - end - - -
+station name
+雙溪
+-
+station code
+7310
+-
+city
+新北市
+-
+location
+121.86645
+25.03858
+-
+- - - end - - -
+station name
+三坑
+-
+station code
+910
+-
+city
+基隆市
+-
+location
+121.74202
+25.12305
+-
+- - - end - - -
+station name
+八堵
+-
+station code
+920
+-
+city
+基隆市
+-
+location
+121.72898
+25.10843
+-
+- - - end - - -
+station name
+七堵
+-
+station code
+930
+-
+city
+基隆市
+-
+location
+121.71415
+25.09294
+-
+- - - end - - -
+station name
+五堵
+-
+station code
+950
+-
+city
+新北市
+-
+location
+121.66764
+25.07784
+-
+- - - end - - -
+station name
+汐止
+-
+station code
+960
+-
+city
+新北市
+-
+location
+121.66244
+25.06894
+-
+- - - end - - -
+station name
+汐科
+-
+station code
+970
+-
+city
+新北市
+-
+location
+121.64669
+25.06241
+-
+- - - end - - -
+station name
+南港
+-
+station code
+980
+-
+city
+臺北市
+-
+location
+121.60706
+25.05348
+-
+- - - end - - -
+station name
+松山
+-
+station code
+990
+-
+city
+臺北市
+-
+location
+121.57807
+25.04936
+-
+- - - end - - -
+station name
+臺北
+-
+station code
+1000
+-
+city
+臺北市
+-
+location
+121.51784
+25.04771
+-
+- - - end - - -
+station name
+臺北-環島
+-
+station code
+1001
+-
+city
+
+-
+location
+121.51793
+25.04811
+-
+- - - end - - -
+station name
+萬華
+-
+station code
+1010
+-
+city
+臺北市
+-
+location
+121.49991
+25.03352
+-
+- - - end - - -
+station name
+板橋
+-
+station code
+1020
+-
+city
+新北市
+-
+location
+121.46352
+25.01469
+-
+- - - end - - -
+station name
+浮洲
+-
+station code
+1030
+-
+city
+新北市
+-
+location
+121.44477
+25.00419
+-
+- - - end - - -
+station name
+樹林
+-
+station code
+1040
+-
+city
+新北市
+-
+location
+121.42481
+24.99121
+-
+- - - end - - -
+station name
+南樹林
+-
+station code
+1050
+-
+city
+新北市
+-
+location
+121.40891
+24.98034
+-
+- - - end - - -
+station name
+鶯歌
+-
+station code
+1070
+-
+city
+新北市
+-
+location
+121.35494
+24.95481
+-
+- - - end - - -
+station name
+桃園
+-
+station code
+1080
+-
+city
+桃園市
+-
+location
+121.31445
+24.98935
+-
+- - - end - - -
+station name
+內壢
+-
+station code
+1090
+-
+city
+桃園市
+-
+location
+121.25814
+24.97287
+-
+- - - end - - -
+station name
+中壢
+-
+station code
+1100
+-
+city
+桃園市
+-
+location
+121.22571
+24.95382
+-
+- - - end - - -
+station name
+埔心
+-
+station code
+1110
+-
+city
+桃園市
+-
+location
+121.18366
+24.91945
+-
+- - - end - - -
+station name
+楊梅
+-
+station code
+1120
+-
+city
+桃園市
+-
+location
+121.14634
+24.91391
+-
+- - - end - - -
+station name
+富岡
+-
+station code
+1130
+-
+city
+桃園市
+-
+location
+121.08313
+24.93462
+-
+- - - end - - -
+station name
+新富
+-
+station code
+1140
+-
+city
+桃園市
+-
+location
+121.06759
+24.93107
+-
+- - - end - - -
+station name
+北湖
+-
+station code
+1150
+-
+city
+新竹縣
+-
+location
+121.05586
+24.92191
+-
+- - - end - - -
+station name
+湖口
+-
+station code
+1160
+-
+city
+新竹縣
+-
+location
+121.04412
+24.90292
+-
+- - - end - - -
+station name
+新豐
+-
+station code
+1170
+-
+city
+新竹縣
+-
+location
+120.99654
+24.86961
+-
+- - - end - - -
+station name
+竹北
+-
+station code
+1180
+-
+city
+新竹縣
+-
+location
+121.00936
+24.83892
+-
+- - - end - - -
+station name
+北新竹
+-
+station code
+1190
+-
+city
+新竹市
+-
+location
+120.98385
+24.80876
+-
+- - - end - - -
+station name
+千甲
+-
+station code
+1191
+-
+city
+新竹市
+-
+location
+121.00301
+24.80669
+-
+- - - end - - -
+station name
+竹中
+-
+station code
+1193
+-
+city
+新竹縣
+-
+location
+121.03117
+24.78125
+-
+- - - end - - -
+station name
+上員
+-
+station code
+1201
+-
+city
+新竹縣
+-
+location
+121.05554
+24.77797
+-
+- - - end - - -
+station name
+榮華
+-
+station code
+1202
+-
+city
+新竹縣
+-
+location
+121.08296
+24.74851
+-
+- - - end - - -
+station name
+竹東
+-
+station code
+1203
+-
+city
+新竹縣
+-
+location
+121.09465
+24.73811
+-
+- - - end - - -
+station name
+橫山
+-
+station code
+1204
+-
+city
+新竹縣
+-
+location
+121.11657
+24.72051
+-
+- - - end - - -
+station name
+合興
+-
+station code
+1206
+-
+city
+新竹縣
+-
+location
+121.15434
+24.71649
+-
+- - - end - - -
+station name
+富貴
+-
+station code
+1207
+-
+city
+新竹縣
+-
+location
+121.16729
+24.71553
+-
+- - - end - - -
+station name
+內灣
+-
+station code
+1208
+-
+city
+新竹縣
+-
+location
+121.18247
+24.70526
+-
+- - - end - - -
+station name
+新竹
+-
+station code
+1210
+-
+city
+新竹市
+-
+location
+120.97156
+24.80169
+-
+- - - end - - -
+station name
+三姓橋
+-
+station code
+1220
+-
+city
+新竹市
+-
+location
+120.92838
+24.78723
+-
+- - - end - - -
+station name
+香山
+-
+station code
+1230
+-
+city
+新竹市
+-
+location
+120.91391
+24.76321
+-
+- - - end - - -
+station name
+竹南
+-
+station code
+1250
+-
+city
+苗栗縣
+-
+location
+120.88041
+24.68663
+-
+- - - end - - -
+station name
+談文
+-
+station code
+2110
+-
+city
+苗栗縣
+-
+location
+120.85825
+24.65641
+-
+- - - end - - -
+station name
+大山
+-
+station code
+2120
+-
+city
+苗栗縣
+-
+location
+120.80376
+24.64565
+-
+- - - end - - -
+station name
+後龍
+-
+station code
+2130
+-
+city
+苗栗縣
+-
+location
+120.78731
+24.61621
+-
+- - - end - - -
+station name
+龍港
+-
+station code
+2140
+-
+city
+苗栗縣
+-
+location
+120.75812
+24.61169
+-
+- - - end - - -
+station name
+白沙屯
+-
+station code
+2150
+-
+city
+苗栗縣
+-
+location
+120.70824
+24.56481
+-
+- - - end - - -
+station name
+新埔
+-
+station code
+2160
+-
+city
+苗栗縣
+-
+location
+120.69518
+24.54018
+-
+- - - end - - -
+station name
+苑裡
+-
+station code
+2180
+-
+city
+苗栗縣
+-
+location
+120.65146
+24.44344
+-
+- - - end - - -
+station name
+日南
+-
+station code
+2190
+-
+city
+臺中市
+-
+location
+120.65412
+24.37805
+-
+- - - end - - -
+station name
+大甲
+-
+station code
+2200
+-
+city
+臺中市
+-
+location
+120.62703
+24.34455
+-
+- - - end - - -
+station name
+臺中港
+-
+station code
+2210
+-
+city
+臺中市
+-
+location
+120.60231
+24.30441
+-
+- - - end - - -
+station name
+清水
+-
+station code
+2220
+-
+city
+臺中市
+-
+location
+120.56918
+24.26364
+-
+- - - end - - -
+station name
+沙鹿
+-
+station code
+2230
+-
+city
+臺中市
+-
+location
+120.55752
+24.23702
+-
+- - - end - - -
+station name
+龍井
+-
+station code
+2240
+-
+city
+臺中市
+-
+location
+120.54336
+24.19745
+-
+- - - end - - -
+station name
+大肚
+-
+station code
+2250
+-
+city
+臺中市
+-
+location
+120.54255
+24.15401
+-
+- - - end - - -
+station name
+追分
+-
+station code
+2260
+-
+city
+臺中市
+-
+location
+120.57014
+24.12061
+-
+- - - end - - -
+station name
+豐富
+-
+station code
+3150
+-
+city
+苗栗縣
+-
+location
+120.82357
+24.60131
+-
+- - - end - - -
+station name
+苗栗
+-
+station code
+3160
+-
+city
+苗栗縣
+-
+location
+120.82148
+24.57011
+-
+- - - end - - -
+station name
+南勢
+-
+station code
+3170
+-
+city
+苗栗縣
+-
+location
+120.79157
+24.52234
+-
+- - - end - - -
+station name
+銅鑼
+-
+station code
+3180
+-
+city
+苗栗縣
+-
+location
+120.78616
+24.48648
+-
+- - - end - - -
+station name
+三義
+-
+station code
+3190
+-
+city
+苗栗縣
+-
+location
+120.77393
+24.42066
+-
+- - - end - - -
+station name
+后里
+-
+station code
+3220
+-
+city
+臺中市
+-
+location
+120.73288
+24.30933
+-
+- - - end - - -
+station name
+豐原
+-
+station code
+3230
+-
+city
+臺中市
+-
+location
+120.72291
+24.25413
+-
+- - - end - - -
+station name
+栗林
+-
+station code
+3240
+-
+city
+臺中市
+-
+location
+120.71069
+24.23481
+-
+- - - end - - -
+station name
+潭子
+-
+station code
+3250
+-
+city
+臺中市
+-
+location
+120.70557
+24.21283
+-
+- - - end - - -
+station name
+頭家厝
+-
+station code
+3260
+-
+city
+臺中市
+-
+location
+120.70398
+24.19572
+-
+- - - end - - -
+station name
+精武
+-
+station code
+3290
+-
+city
+臺中市
+-
+location
+120.69773
+24.14917
+-
+- - - end - - -
+station name
+臺中
+-
+station code
+3300
+-
+city
+臺中市
+-
+location
+120.68527
+24.13661
+-
+- - - end - - -
+station name
+五權
+-
+station code
+3310
+-
+city
+臺中市
+-
+location
+120.66644
+24.12877
+-
+- - - end - - -
+station name
+大慶
+-
+station code
+3320
+-
+city
+臺中市
+-
+location
+120.64791
+24.11891
+-
+- - - end - - -
+station name
+烏日
+-
+station code
+3330
+-
+city
+臺中市
+-
+location
+120.62244
+24.10867
+-
+- - - end - - -
+station name
+新烏日
+-
+station code
+3340
+-
+city
+臺中市
+-
+location
+120.61429
+24.10976
+-
+- - - end - - -
+station name
+成功
+-
+station code
+3350
+-
+city
+臺中市
+-
+location
+120.59021
+24.11424
+-
+- - - end - - -
+station name
+彰化
+-
+station code
+3360
+-
+city
+彰化縣
+-
+location
+120.53835
+24.08142
+-
+- - - end - - -
+station name
+員林
+-
+station code
+3390
+-
+city
+彰化縣
+-
+location
+120.56995
+23.95933
+-
+- - - end - - -
+station name
+永靖
+-
+station code
+3400
+-
+city
+彰化縣
+-
+location
+120.57165
+23.92811
+-
+- - - end - - -
+station name
+社頭
+-
+station code
+3410
+-
+city
+彰化縣
+-
+location
+120.58082
+23.89571
+-
+- - - end - - -
+station name
+田中
+-
+station code
+3420
+-
+city
+彰化縣
+-
+location
+120.59121
+23.85827
+-
+- - - end - - -
+station name
+二水
+-
+station code
+3430
+-
+city
+彰化縣
+-
+location
+120.61805
+23.81321
+-
+- - - end - - -
+station name
+源泉
+-
+station code
+3431
+-
+city
+彰化縣
+-
+location
+120.64208
+23.79846
+-
+- - - end - - -
+station name
+濁水
+-
+station code
+3432
+-
+city
+南投縣
+-
+location
+120.70467
+23.83467
+-
+- - - end - - -
+station name
+松竹
+-
+station code
+3270
+-
+city
+臺中市
+-
+location
+120.70197
+24.17983
+-
+- - - end - - -
+station name
+龍泉
+-
+station code
+3433
+-
+city
+南投縣
+-
+location
+120.74996
+23.83521
+-
+- - - end - - -
+station name
+集集
+-
+station code
+3434
+-
+city
+南投縣
+-
+location
+120.78491
+23.82653
+-
+- - - end - - -
+station name
+水里
+-
+station code
+3435
+-
+city
+南投縣
+-
+location
+120.85333
+23.81844
+-
+- - - end - - -
+station name
+車埕
+-
+station code
+3436
+-
+city
+南投縣
+-
+location
+120.86572
+23.83263
+-
+- - - end - - -
+station name
+林內
+-
+station code
+3450
+-
+city
+雲林縣
+-
+location
+120.61499
+23.75967
+-
+- - - end - - -
+station name
+石榴
+-
+station code
+3460
+-
+city
+雲林縣
+-
+location
+120.57998
+23.73167
+-
+- - - end - - -
+station name
+斗六
+-
+station code
+3470
+-
+city
+雲林縣
+-
+location
+120.54117
+23.71157
+-
+- - - end - - -
+station name
+斗南
+-
+station code
+3480
+-
+city
+雲林縣
+-
+location
+120.48082
+23.67302
+-
+- - - end - - -
+station name
+石龜
+-
+station code
+3490
+-
+city
+雲林縣
+-
+location
+120.47106
+23.63951
+-
+- - - end - - -
+station name
+大林
+-
+station code
+4050
+-
+city
+嘉義縣
+-
+location
+120.45585
+23.60112
+-
+- - - end - - -
+station name
+民雄
+-
+station code
+4060
+-
+city
+嘉義縣
+-
+location
+120.43136
+23.55502
+-
+- - - end - - -
+station name
+嘉北
+-
+station code
+4070
+-
+city
+嘉義市
+-
+location
+120.44852
+23.49985
+-
+- - - end - - -
+station name
+嘉義
+-
+station code
+4080
+-
+city
+嘉義市
+-
+location
+120.44124
+23.47902
+-
+- - - end - - -
+station name
+水上
+-
+station code
+4090
+-
+city
+嘉義縣
+-
+location
+120.39961
+23.43389
+-
+- - - end - - -
+station name
+南靖
+-
+station code
+4100
+-
+city
+嘉義縣
+-
+location
+120.38647
+23.41346
+-
+- - - end - - -
+station name
+後壁
+-
+station code
+4110
+-
+city
+臺南市
+-
+location
+120.36058
+23.36626
+-
+- - - end - - -
+station name
+新營
+-
+station code
+4120
+-
+city
+臺南市
+-
+location
+120.32304
+23.30672
+-
+- - - end - - -
+station name
+柳營
+-
+station code
+4130
+-
+city
+臺南市
+-
+location
+120.32252
+23.27762
+-
+- - - end - - -
+station name
+隆田
+-
+station code
+4150
+-
+city
+臺南市
+-
+location
+120.31917
+23.19271
+-
+- - - end - - -
+station name
+拔林
+-
+station code
+4160
+-
+city
+臺南市
+-
+location
+120.32117
+23.17287
+-
+- - - end - - -
+station name
+南科
+-
+station code
+4180
+-
+city
+臺南市
+-
+location
+120.30175
+23.10714
+-
+- - - end - - -
+station name
+新市
+-
+station code
+4190
+-
+city
+臺南市
+-
+location
+120.29004
+23.06816
+-
+- - - end - - -
+station name
+永康
+-
+station code
+4200
+-
+city
+臺南市
+-
+location
+120.25354
+23.03832
+-
+- - - end - - -
+station name
+大橋
+-
+station code
+4210
+-
+city
+臺南市
+-
+location
+120.22449
+23.01951
+-
+- - - end - - -
+station name
+臺南
+-
+station code
+4220
+-
+city
+臺南市
+-
+location
+120.21231
+22.99719
+-
+- - - end - - -
+station name
+保安
+-
+station code
+4250
+-
+city
+臺南市
+-
+location
+120.23143
+22.93289
+-
+- - - end - - -
+station name
+仁德
+-
+station code
+4260
+-
+city
+臺南市
+-
+location
+120.24061
+22.92364
+-
+- - - end - - -
+station name
+中洲
+-
+station code
+4270
+-
+city
+臺南市
+-
+location
+120.25286
+22.90466
+-
+- - - end - - -
+station name
+沙崙
+-
+station code
+4272
+-
+city
+臺南市
+-
+location
+120.28635
+22.92419
+-
+- - - end - - -
+station name
+大湖
+-
+station code
+4290
+-
+city
+高雄市
+-
+location
+120.25384
+22.87821
+-
+- - - end - - -
+station name
+路竹
+-
+station code
+4300
+-
+city
+高雄市
+-
+location
+120.26619
+22.85404
+-
+- - - end - - -
+station name
+岡山
+-
+station code
+4310
+-
+city
+高雄市
+-
+location
+120.29981
+22.79225
+-
+- - - end - - -
+station name
+橋頭
+-
+station code
+4320
+-
+city
+高雄市
+-
+location
+120.31017
+22.76081
+-
+- - - end - - -
+station name
+楠梓
+-
+station code
+4330
+-
+city
+高雄市
+-
+location
+120.32453
+22.72717
+-
+- - - end - - -
+station name
+新左營
+-
+station code
+4340
+-
+city
+高雄市
+-
+location
+120.30721
+22.68721
+-
+- - - end - - -
+station name
+左營
+-
+station code
+4350
+-
+city
+高雄市
+-
+location
+120.29441
+22.67441
+-
+- - - end - - -
+station name
+內惟
+-
+station code
+4360
+-
+city
+高雄市
+-
+location
+120.28691
+22.66611
+-
+- - - end - - -
+station name
+美術館
+-
+station code
+4370
+-
+city
+高雄市
+-
+location
+120.28163
+22.65298
+-
+- - - end - - -
+station name
+鼓山
+-
+station code
+4380
+-
+city
+高雄市
+-
+location
+120.28071
+22.64169
+-
+- - - end - - -
+station name
+三塊厝
+-
+station code
+4390
+-
+city
+高雄市
+-
+location
+120.29381
+22.63901
+-
+- - - end - - -
+station name
+高雄
+-
+station code
+4400
+-
+city
+高雄市
+-
+location
+120.30313
+22.63801
+-
+- - - end - - -
+station name
+民族
+-
+station code
+4410
+-
+city
+高雄市
+-
+location
+120.31479
+22.63881
+-
+- - - end - - -
+station name
+正義
+-
+station code
+4430
+-
+city
+高雄市
+-
+location
+120.34245
+22.63425
+-
+- - - end - - -
+station name
+鳳山
+-
+station code
+4440
+-
+city
+高雄市
+-
+location
+120.35746
+22.63131
+-
+- - - end - - -
+station name
+後庄
+-
+station code
+4450
+-
+city
+高雄市
+-
+location
+120.39132
+22.64013
+-
+- - - end - - -
+station name
+九曲堂
+-
+station code
+4460
+-
+city
+高雄市
+-
+location
+120.42072
+22.65658
+-
+- - - end - - -
+station name
+六塊厝
+-
+station code
+4470
+-
+city
+屏東縣
+-
+location
+120.46491
+22.66619
+-
+- - - end - - -
+station name
+歸來
+-
+station code
+5010
+-
+city
+屏東縣
+-
+location
+120.50294
+22.65214
+-
+- - - end - - -
+station name
+麟洛
+-
+station code
+5020
+-
+city
+屏東縣
+-
+location
+120.51446
+22.63478
+-
+- - - end - - -
+station name
+竹田
+-
+station code
+5040
+-
+city
+屏東縣
+-
+location
+120.54009
+22.58648
+-
+- - - end - - -
+station name
+潮州
+-
+station code
+5050
+-
+city
+屏東縣
+-
+location
+120.53662
+22.55007
+-
+- - - end - - -
+station name
+崁頂
+-
+station code
+5060
+-
+city
+屏東縣
+-
+location
+120.51481
+22.51311
+-
+- - - end - - -
+station name
+南州
+-
+station code
+5070
+-
+city
+屏東縣
+-
+location
+120.51159
+22.49203
+-
+- - - end - - -
+station name
+鎮安
+-
+station code
+5080
+-
+city
+屏東縣
+-
+location
+120.51151
+22.45794
+-
+- - - end - - -
+station name
+林邊
+-
+station code
+5090
+-
+city
+屏東縣
+-
+location
+120.51538
+22.43141
+-
+- - - end - - -
+station name
+佳冬
+-
+station code
+5100
+-
+city
+屏東縣
+-
+location
+120.54782
+22.41416
+-
+- - - end - - -
+station name
+東海
+-
+station code
+5110
+-
+city
+屏東縣
+-
+location
+120.57252
+22.39903
+-
+- - - end - - -
+station name
+枋寮
+-
+station code
+5120
+-
+city
+屏東縣
+-
+location
+120.59501
+22.36786
+-
+- - - end - - -
+station name
+加祿
+-
+station code
+5130
+-
+city
+屏東縣
+-
+location
+120.62445
+22.33085
+-
+- - - end - - -
+station name
+內獅
+-
+station code
+5140
+-
+city
+屏東縣
+-
+location
+120.64322
+22.30615
+-
+- - - end - - -
+station name
+枋山
+-
+station code
+5160
+-
+city
+屏東縣
+-
+location
+120.65968
+22.26677
+-
+- - - end - - -
+station name
+大武
+-
+station code
+5190
+-
+city
+臺東縣
+-
+location
+120.90091
+22.36537
+-
+- - - end - - -
+station name
+瀧溪
+-
+station code
+5200
+-
+city
+臺東縣
+-
+location
+120.94188
+22.46072
+-
+- - - end - - -
+station name
+金崙
+-
+station code
+5210
+-
+city
+臺東縣
+-
+location
+120.96721
+22.53161
+-
+- - - end - - -
+station name
+太麻里
+-
+station code
+5220
+-
+city
+臺東縣
+-
+location
+121.00505
+22.61879
+-
+- - - end - - -
+station name
+知本
+-
+station code
+5230
+-
+city
+臺東縣
+-
+location
+121.06128
+22.71008
+-
+- - - end - - -
+station name
+康樂
+-
+station code
+5240
+-
+city
+臺東縣
+-
+location
+121.09338
+22.76406
+-
+- - - end - - -
+station name
+三貂嶺
+-
+station code
+7330
+-
+city
+新北市
+-
+location
+121.82259
+25.06555
+-
+- - - end - - -
+station name
+大華
+-
+station code
+7331
+-
+city
+新北市
+-
+location
+121.79751
+25.04993
+-
+- - - end - - -
+station name
+十分
+-
+station code
+7332
+-
+city
+新北市
+-
+location
+121.77514
+25.04111
+-
+- - - end - - -
+station name
+望古
+-
+station code
+7333
+-
+city
+新北市
+-
+location
+121.76349
+25.03445
+-
+- - - end - - -
+station name
+嶺腳
+-
+station code
+7334
+-
+city
+新北市
+-
+location
+121.74784
+25.03021
+-
+- - - end - - -
+station name
+平溪
+-
+station code
+7335
+-
+city
+新北市
+-
+location
+121.73994
+25.02552
+-
+- - - end - - -
+station name
+菁桐
+-
+station code
+7336
+-
+city
+新北市
+-
+location
+121.72394
+25.02384
+-
+- - - end - - -
+station name
+猴硐
+-
+station code
+7350
+-
+city
+新北市
+-
+location
+121.82749
+25.08697
+-
+- - - end - - -
+station name
+瑞芳
+-
+station code
+7360
+-
+city
+新北市
+-
+location
+121.80596
+25.10861
+-
+- - - end - - -
+station name
+海科館
+-
+station code
+7361
+-
+city
+基隆市
+-
+location
+121.80003
+25.13768
+-
+- - - end - - -
+station name
+八斗子
+-
+station code
+7362
+-
+city
+基隆市
+-
+location
+121.80285
+25.13534
+-
+- - - end - - -
+station name
+四腳亭
+-
+station code
+7380
+-
+city
+新北市
+-
+location
+121.76192
+25.10281
+-
+- - - end - - -
+station name
+壽豐
+-
+station code
+6220
+-
+city
+花蓮縣
+-
+location
+121.51064
+23.86901
+-
+- - - end - - -
+station name
+東竹
+-
+station code
+6090
+-
+city
+花蓮縣
+-
+location
+121.27844
+23.22612
+-
+- - - end - - -
+station name
+牡丹
+-
+station code
+7320
+-
+city
+新北市
+-
+location
+121.85194
+25.05877
+-
+- - - end - - -
+station name
+長榮大學
+-
+station code
+4271
+-
+city
+臺南市
+-
+location
+120.27274
+22.90735
+-
+- - - end - - -
+station name
+泰安
+-
+station code
+3210
+-
+city
+臺中市
+-
+location
+120.74181
+24.33146
+-
+- - - end - - -
+station name
+科工館
+-
+station code
+4420
+-
+city
+高雄市
+-
+location
+120.32663
+22.63702
+-
+- - - end - - -
+station name
+蘇澳
+-
+station code
+7120
+-
+city
+宜蘭縣
+-
+location
+121.85144
+24.59521
+-
+- - - end - - -
+station name
+大富
+-
+station code
+6150
+-
+city
+花蓮縣
+-
+location
+121.38969
+23.60572
+-
+- - - end - - -
+station name
+屏東
+-
+station code
+5000
+-
+city
+屏東縣
+-
+location
+120.48627
+22.66961
+-
+- - - end - - -
+station name
+造橋
+-
+station code
+3140
+-
+city
+苗栗縣
+-
+location
+120.86719
+24.64206
+-
+- - - end - - -
+station name
+山佳
+-
+station code
+1060
+-
+city
+新北市
+-
+location
+121.39273
+24.97233
+-
+- - - end - - -
+station name
+九讚頭
+-
+station code
+1205
+-
+city
+新竹縣
+-
+location
+121.13621
+24.72068
+-
+- - - end - - -
+station name
+西勢
+-
+station code
+5030
+-
+city
+屏東縣
+-
+location
+120.52677
+22.61661
+-
+- - - end - - -
+station name
+太原
+-
+station code
+3280
+-
+city
+臺中市
+-
+location
+120.69981
+24.16413
+-
+- - - end - - -
+station name
+善化
+-
+station code
+4170
+-
+city
+臺南市
+-
+location
+120.30653
+23.13333
+-
+- - - end - - -
+station name
+花壇
+-
+station code
+3370
+-
+city
+彰化縣
+-
+location
+120.53738
+24.02501
+-
+- - - end - - -
+station name
+通霄
+-
+station code
+2170
+-
+city
+苗栗縣
+-
+location
+120.67843
+24.49141
+-
+- - - end - - -
+station name
+崎頂
+-
+station code
+1240
+-
+city
+苗栗縣
+-
+location
+120.87213
+24.72281
+-
+- - - end - - -
+station name
+大村
+-
+station code
+3380
+-
+city
+彰化縣
+-
+location
+120.56068
+23.99003
+-
+- - - end - - -
+station name
+新莊
+-
+station code
+1192
+-
+city
+新竹市
+-
+location
+121.02182
+24.78819
+-
+- - - end - - -
+station name
+百福
+-
+station code
+940
+-
+city
+基隆市
+-
+location
+121.69373
+25.07803
+-
+- - - end - - -
+station name
+六家
+-
+station code
+1194
+-
+city
+新竹縣
+-
+location
+121.03921
+24.80751
+-
+- - - end - - -
+station name
+林鳳營
+-
+station code
+4140
+-
+city
+臺南市
+-
+location
+120.32107
+23.24259
+-
+- - - end - - -
+station name
+基隆
+-
+station code
+900
+-
+city
+基隆市
+-
+location
+121.74013
+25.13401
+-
+- - - end - - -
+station name
+冬山
+-
+station code
+7150
+-
+city
+宜蘭縣
+-
+location
+121.79212
+24.63627
+-
+- - - end - - -

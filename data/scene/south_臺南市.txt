@@ -1111,30 +1111,6 @@ None
 -
 - - - end - - -
 景點名
-錢來也雜貨店
--
-連結
-https://www.taiwan.net.tw/m1.aspx?sNo=0001119&id=A12-00314
--
-照片
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314_1.jpg
-https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314_2.jpg
--
-經緯度
-120.12395
-23.268065
--
-自行開車
-None
--
-大眾交通
-1.國道1號-新營交流道下-台19線(經鹽水)-171縣道(往學甲)-北門
-1.搭高鐵至嘉義站下-轉搭台灣好行鹽鄉濱海線7702路線至北門遊客中心站下
-None
--
-- - - end - - -
-景點名
 美雅家具觀光工廠
 -
 連結
@@ -1157,6 +1133,30 @@ None
 大眾交通
 1.國道1號-嘉義系統交流道下-82快速道路-中和交流道下(往白河)-175縣道-165縣道
 1.搭臺鐵至嘉義站下-轉搭臺南客運7210路線於甘宅站下
+None
+-
+- - - end - - -
+景點名
+錢來也雜貨店
+-
+連結
+https://www.taiwan.net.tw/m1.aspx?sNo=0001119&id=A12-00314
+-
+照片
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314_1.jpg
+https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00314_2.jpg
+-
+經緯度
+120.12395
+23.268065
+-
+自行開車
+None
+-
+大眾交通
+1.國道1號-新營交流道下-台19線(經鹽水)-171縣道(往學甲)-北門
+1.搭高鐵至嘉義站下-轉搭台灣好行鹽鄉濱海線7702路線至北門遊客中心站下
 None
 -
 - - - end - - -
